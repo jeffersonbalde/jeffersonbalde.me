@@ -11,10 +11,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'blue': '#416BD8',
+        blue: '#416BD8',
         grey: '#676767',
         navbar: 'rgba(103, 103, 103, 0.77)',
-        projectTitle: '#333333'
+        black: '#333333'
       },
     //   screens: {
     //     xs: "",

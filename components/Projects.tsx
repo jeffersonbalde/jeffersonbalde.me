@@ -16,7 +16,7 @@ function Projects() {
                     className='h-60 w-full'
                 />
                 <div className='mt-1 flex flex-row items-center'>
-                    <h2 className='text-lg mr-5 text-projectTitle'>SCC Website</h2>
+                    <h2 className='text-lg mr-5 text-black'>SCC Website</h2>
                     <h6 className='text-grey mr-5 text-[12px]'>/</h6>
                     <h6 className='text-grey text-[14px]'>Design & Development</h6>
                 </div>
@@ -33,7 +33,7 @@ function Projects() {
                     className='h-60 w-full'
                 />
                 <div className='mt-1 flex flex-row items-center'>
-                    <h2 className='text-lg mr-5 text-projectTitle'>Luzcella</h2>
+                    <h2 className='text-lg mr-5 text-black'>Luzcella</h2>
                     <h6 className='text-grey mr-5 text-[12px]'>/</h6>
                     <h6 className='text-grey text-[14px]'>Design & Development</h6>
                 </div>
@@ -50,7 +50,7 @@ function Projects() {
                     className='h-60 w-full'
                 />
                 <div className='mt-1 flex flex-row items-center'>
-                    <h2 className='text-lg mr-5 text-projectTitle'>Enerluz x Jen</h2>
+                    <h2 className='text-lg mr-5 text-black'>Enerluz x Jen</h2>
                     <h6 className='text-grey mr-5 text-[12px]'>/</h6>
                     <h6 className='text-grey text-[14px]'>Design & Development</h6>
                 </div>
