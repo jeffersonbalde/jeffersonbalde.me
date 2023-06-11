@@ -19,6 +19,16 @@ const neueMontreal = localFont({
   ]
 })
 
+const migra = localFont({
+  src: [
+    {
+      path: '../public/fonts/Migra-Extrabold.otf',
+      weight: '700',
+      style: "bold"
+    }
+  ]
+})
+
 export const metadata = {
   title: 'Jefferson Balde | Frontend Developer',
   description: 'Jefferson Balde Portfolio Website',
