@@ -31,83 +31,123 @@ function Footer() {
   return (
     <footer className='mt-28'>
         <hr className=' border-grey'/>
-        <h1 className='text-black font-bold text-3xl mt-6'>JB</h1>
-        <div className='mt-2'>
-            <hr className=' border-grey'/>
-            <h1 
-                className='text-black font-bold text-xl mt-2 cursor-pointer'
-                onClick={handleClickPages}
-                >
-                    Pages</h1>
-                {showMenuPages && (
-                    <div className="mt-2 text-base">
-                        <p className="cursor-pointer hover:underline underline-offset-1 decoration-1">Home</p>
-                        <p className="cursor-pointer hover:underline underline-offset-1 decoration-1">About</p>
-                        <p className="cursor-pointer hover:underline underline-offset-1 decoration-1">Works</p>
-                        <p className="cursor-pointer hover:underline underline-offset-1 decoration-1">Skills</p>
-                        <p className="cursor-pointer hover:underline underline-offset-1 decoration-1">Contact</p>
+        <div className='mt-10 md:mt-12 md:flex flex-row justify-between md:w-[720px] lg:w-[800px] md:m-auto'>
+            <h1 className='text-black font-bold text-3xl mt-6 md:mt-4'>JB</h1>
+            <div className='mt-2'>
+                <hr className=' border-grey md:hidden'/>
+                <h1 
+                    className='text-black font-bold text-xl mt-2 cursor-pointer'
+                    onClick={handleClickPages}
+                    >
+                        Pages</h1>
+                    <div className=''>
+                    {showMenuPages ? (
+                        <div className="mt-2 text-base">
+                            <p className="mt-0.5 text-grey cursor-pointer hover:underline underline-offset-1 decoration-1">Home</p>
+                            <p className="mt-0.5 text-grey cursor-pointer hover:underline underline-offset-1 decoration-1">About</p>
+                            <p className="mt-0.5 text-grey cursor-pointer hover:underline underline-offset-1 decoration-1">Works</p>
+                            <p className="mt-0.5 text-grey cursor-pointer hover:underline underline-offset-1 decoration-1">Skills</p>
+                            <p className="mt-0.5 text-grey cursor-pointer hover:underline underline-offset-1 decoration-1">Contact</p>
+                        </div>
+                    ) :  (
+                        <div className="mt-2 text-base hidden md:block">
+                            <p className="mt-0.5 text-grey cursor-pointer hover:underline underline-offset-1 decoration-1">Home</p>
+                            <p className="mt-0.5 text-grey cursor-pointer hover:underline underline-offset-1 decoration-1">About</p>
+                            <p className="mt-0.5 text-grey cursor-pointer hover:underline underline-offset-1 decoration-1">Works</p>
+                            <p className="mt-0.5 text-grey cursor-pointer hover:underline underline-offset-1 decoration-1">Skills</p>
+                            <p className="mt-0.5 text-grey cursor-pointer hover:underline underline-offset-1 decoration-1">Contact</p>
+                        </div>
+                    )}
                     </div>
-                )}
+            </div>
+            <div className='mt-2'>
+                <hr className=' border-grey md:hidden'/>
+                <h1 
+                    className='text-black font-bold text-xl mt-2 cursor-pointer'
+                    onClick={handleClickLanguages}
+                    >
+                        Languages</h1>
+                    {showMenuLanguages ? (
+                        <div className="mt-2 text-base">
+                            <p className="mt-0.5 text-grey">JavaScript</p>
+                            <p className="mt-0.5 text-grey">TypeScript</p>
+                            <p className="mt-0.5 text-grey">Python</p>
+                            <p className="mt-0.5 text-grey">Java</p>
+                            <p className="mt-0.5 text-grey">PHP</p>
+                            <p className="mt-0.5 text-grey">SQL</p>
+                        </div>
+                    ) : (
+                        <div className="mt-2 text-base hidden md:block">
+                            <p className="mt-0.5 text-grey">JavaScript</p>
+                            <p className="mt-0.5 text-grey">TypeScript</p>
+                            <p className="mt-0.5 text-grey">Python</p>
+                            <p className="mt-0.5 text-grey">Java</p>
+                            <p className="mt-0.5 text-grey">PHP</p>
+                            <p className="mt-0.5 text-grey">SQL</p>
+                        </div>
+                    )}
+            </div>
+            <div className='mt-2'>
+                <hr className=' border-grey md:hidden'/>
+                <h1 
+                    className='text-black font-bold text-xl mt-2 cursor-pointer'
+                    onClick={handleClickFrameworks}
+                    >
+                        Frameworks</h1>
+                    {showMenuFrameworks ? (
+                        <div className="mt-2 text-base">
+                            <p className='mt-0.5 text-grey'>ReactJs</p>
+                            <p className='mt-0.5 text-grey'>NextJs</p>
+                            <p className='mt-0.5 text-grey'>Node</p>
+                            <p className='mt-0.5 text-grey'>Express</p>
+                            <p className='mt-0.5 text-grey'>Mongoose</p>
+                            <p className='mt-0.5 text-grey'>Prisma</p>
+                            <p className='mt-0.5 text-grey'>Tailwind</p>
+                        </div>
+                    ) : (
+                        <div className="mt-2 text-base hidden md:block">
+                            <p className='mt-0.5 text-grey'>ReactJs</p>
+                            <p className='mt-0.5 text-grey'>NextJs</p>
+                            <p className='mt-0.5 text-grey'>Node</p>
+                            <p className='mt-0.5 text-grey'>Express</p>
+                            <p className='mt-0.5 text-grey'>Mongoose</p>
+                            <p className='mt-0.5 text-grey'>Prisma</p>
+                            <p className='mt-0.5 text-grey'>Tailwind</p>
+                        </div>
+                    )}
+            </div>
+            <div className='mt-2'>
+                <hr className=' border-grey md:hidden'/>
+                <h1 
+                    className='text-black font-bold text-xl mt-2 cursor-pointer'
+                    onClick={handleClickTools}
+                    >
+                        Tools</h1>
+                    {showMenuTools ? (
+                        <div className="mt-2 text-base">
+                            <p className='mt-0.5 text-grey'>VS Code</p>
+                            <p className='mt-0.5 text-grey'>IntelliJ IDEA</p>
+                            <p className='mt-0.5 text-grey'>Eclipse</p>
+                            <p className='mt-0.5 text-grey'>Figma</p>
+                            <p className='mt-0.5 text-grey'>MongoDB Atlas</p>
+                            <p className='mt-0.5 text-grey'>Vercel</p>
+                            <p className='mt-0.5 text-grey'>Render</p>
+                        </div>
+                    ) : (
+                        <div className="mt-2 text-base hidden md:block">
+                            <p className='mt-0.5 text-grey'>VS Code</p>
+                            <p className='mt-0.5 text-grey'>IntelliJ IDEA</p>
+                            <p className='mt-0.5 text-grey'>Eclipse</p>
+                            <p className='mt-0.5 text-grey'>Figma</p>
+                            <p className='mt-0.5 text-grey'>MongoDB Atlas</p>
+                            <p className='mt-0.5 text-grey'>Vercel</p>
+                            <p className='mt-0.5 text-grey'>Render</p>
+                        </div>
+                    )}
+            </div>
         </div>
-        <div className='mt-2'>
-            <hr className=' border-grey'/>
-            <h1 
-                className='text-black font-bold text-xl mt-2 cursor-pointer'
-                onClick={handleClickLanguages}
-                >
-                    Languages</h1>
-                {showMenuLanguages && (
-                    <div className="mt-2 text-base">
-                        <p className="">JavaScript</p>
-                        <p className="">TypeScript</p>
-                        <p className="">Python</p>
-                        <p className="">Java</p>
-                        <p className="">PHP</p>
-                        <p className="">SQL</p>
-                    </div>
-                )}
-        </div>
-        <div className='mt-2'>
-            <hr className=' border-grey'/>
-            <h1 
-                className='text-black font-bold text-xl mt-2 cursor-pointer'
-                onClick={handleClickFrameworks}
-                >
-                    Frameworks</h1>
-                {showMenuFrameworks && (
-                    <div className="mt-2 text-base">
-                        <p>ReactJs</p>
-                        <p>NextJs</p>
-                        <p>Node</p>
-                        <p>Express</p>
-                        <p>Mongoose</p>
-                        <p>Prisma</p>
-                        <p>Tailwind</p>
-                    </div>
-                )}
-        </div>
-        <div className='mt-2'>
-            <hr className=' border-grey'/>
-            <h1 
-                className='text-black font-bold text-xl mt-2 cursor-pointer'
-                onClick={handleClickTools}
-                >
-                    Tools</h1>
-                {showMenuTools && (
-                    <div className="mt-2 text-base">
-                        <p>VS Code</p>
-                        <p>IntelliJ IDEA</p>
-                        <p>Eclipse</p>
-                        <p>Figma</p>
-                        <p>MongoDB Atlas</p>
-                        <p>Vercel</p>
-                        <p>Render</p>
-                        <p>MongoDB Atlas</p>
-                    </div>
-                )}
-        </div>
-        <div className='mt-2'>
-            <hr className=' border-grey'/>
+        <div className='mt-2 md:block'>
+            <hr className=' border-grey md:hidden'/>
             <div className='mt-14 flex flex-col justify-center items-center text-center'>
                 <div className='flex flex-row justify-center gap-3'>
                     <Image 
@@ -125,6 +165,7 @@ function Footer() {
                 </div>
                 <div className='mt-2'>
                     <p className='text-grey text-sm'>Copyright © 2023 Jefferson Balde. <br/>All rights reserved.</p>
+                    <br />
                 </div>
             </div>
         </div>
