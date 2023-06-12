@@ -14,12 +14,12 @@ function Workflow() {
   return (
     <div className='mt-28 flex flex-col items-center justify-center text-center'>
         <div>
-            <h1 className='text-black uppercase text-2xl font-bold'>My Workflow<span className='text-blue text-[31px]'>.</span></h1>
-            <h2 className='text-grey text-base mt-2'>Over the years, I have cultivated a strong adherence to these engineering 
+            <h1 className='text-black uppercase text-2xl font-bold sm:text-3xl lg:text-4xl'>My Workflow<span className='text-blue text-[31px]'>.</span></h1>
+            <h2 className='text-grey text-base mt-2 sm:w-[500px] sm:text-lg lg:text-xl lg:w-[600px] '>Over the years, I have cultivated a strong adherence to these engineering 
             processes through practical experience.</h2>
         </div>
-        <div className=''>
-            <div className='border border-blue flex flex-col items-left w-[240px] mt-[52px] p-6 h-56 justify-center relative'>
+        <div className='flex flex-row flex-wrap w-96 items-center justify-center md:w-[900px] md:gap-x-16'>
+            <div className='border border-blue flex flex-col items-left w-[240px] mt-[52px] p-6 h-56 justify-center relative sm:w-72'>
                 <Image 
                     src={discovery}
                     alt='Discovery and Planning'
@@ -28,15 +28,15 @@ function Workflow() {
                 <Image 
                     src={n01}
                     alt='01'
-                    className='absolute left-[200px] bottom-[190px]'              
+                    className='absolute left-[210px] bottom-[190px] sm:left-[265px]'              
                 />
                 <div className='text-left'>
-                    <h1 className='text-lg text-black font-bold'>Discovery and Planning</h1>
-                    <h6 className='text-sm text-grey'>Conduct thorough research and planning to define project goals 
+                    <h1 className='text-lg text-black font-bold sm:text-xl'>Discovery and Planning</h1>
+                    <h6 className='text-sm text-grey sm:text-base'>Conduct thorough research and planning to define project goals 
                     and deliverables.</h6>
                 </div>
             </div>
-            <div className='border border-blue flex flex-col items-left w-[240px] mt-[52px] p-6 h-56 justify-center relative'>
+            <div className='border border-blue flex flex-col items-left w-[240px] mt-[52px] p-6 h-56 justify-center relative sm:w-72'>
                 <Image 
                     src={design}
                     alt='Design and Prototyping'
@@ -45,15 +45,15 @@ function Workflow() {
                 <Image 
                     src={n02}
                     alt='02'  
-                    className='absolute left-[200px] bottom-[190px]'              
+                    className='absolute left-[210px] bottom-[190px] sm:left-[265px]'              
                 />
                 <div className='text-left'>
-                    <h1 className='text-lg text-black font-bold'>Design and Prototyping</h1>
-                    <h6 className='text-sm text-grey'>Create intuitive and visually appealing 
+                    <h1 className='text-lg text-black font-bold sm:text-xl'>Design and Prototyping</h1>
+                    <h6 className='text-sm text-grey sm:text-base'>Create intuitive and visually appealing 
                     designs with interactive prototypes.</h6>
                 </div>
             </div>
-            <div className='border border-blue flex flex-col items-left w-[240px] mt-[52px] p-6 h-56 justify-center relative'>
+            <div className='border border-blue flex flex-col items-left w-[240px] mt-[52px] p-6 h-56 justify-center relative sm:w-72'>
                 <Image 
                     src={development}
                     alt='Development'
@@ -62,15 +62,15 @@ function Workflow() {
                 <Image 
                     src={n03}
                     alt='03'  
-                    className='absolute left-[200px] bottom-[190px]'              
+                    className='absolute left-[210px] bottom-[190px] sm:left-[265px]'            
                 />
                 <div className='text-left'>
-                    <h1 className='text-lg text-black font-bold'>Development</h1>
-                    <h6 className='text-sm text-grey'>Write clean and efficient code using 
+                    <h1 className='text-lg text-black font-bold sm:text-xl'>Development</h1>
+                    <h6 className='text-sm text-grey sm:text-base'>Write clean and efficient code using 
                     industry best practices.</h6>
                 </div>
             </div>
-            <div className='border border-blue flex flex-col items-left w-[240px] mt-[52px] p-6 h-56 justify-center relative'>
+            <div className='border border-blue flex flex-col items-left w-[240px] mt-[52px] p-6 h-56 justify-center relative sm:w-72'>
                 <Image 
                     src={testing}
                     alt='Testing and Quality Assurance'
@@ -79,15 +79,15 @@ function Workflow() {
                 <Image 
                     src={n04}
                     alt='04'  
-                    className='absolute left-[200px] bottom-[190px]'              
+                    className='absolute left-[210px] bottom-[190px] sm:left-[265px]'              
                 />
                 <div className='text-left'>
-                    <h1 className='text-lg text-black font-bold'>Testing and Quality Assurance</h1>
-                    <h6 className='text-sm text-grey'>Perform rigorous testing to identify 
+                    <h1 className='text-lg text-black font-bold sm:text-xl'>Testing and Quality Assurance</h1>
+                    <h6 className='text-sm text-grey sm:text-base'>Perform rigorous testing to identify 
                     and fix any issues.</h6>    
                 </div>
             </div>
-            <div className='border border-blue flex flex-col items-left w-[240px] mt-[52px] p-6 h-56 justify-center relative'>
+            <div className='border border-blue flex flex-col items-left w-[240px] mt-[52px] p-6 h-56 justify-center relative sm:w-72'>
                 <Image 
                     src={discovery}
                     alt='Deployment and Maintenance'
@@ -96,11 +96,11 @@ function Workflow() {
                 <Image 
                     src={n05}
                     alt='05'  
-                    className='absolute left-[200px] bottom-[190px]'              
+                    className='absolute left-[210px] bottom-[190px] sm:left-[265px]'              
                 />
                 <div className='text-left'>
-                    <h1 className='text-lg text-black font-bold'>Deployment and Maintenance</h1>
-                    <h6 className='text-sm text-grey'>Deploy the application and provide ongoing support 
+                    <h1 className='text-lg text-black font-bold sm:text-xl'>Deployment and Maintenance</h1>
+                    <h6 className='text-sm text-grey sm:text-base'>Deploy the application and provide ongoing support 
                     to ensure its smooth operation.</h6>
                 </div>
             </div>

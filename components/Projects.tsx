@@ -5,20 +5,18 @@ import project3 from '../public/assets/project3.png'
 
 function Projects() {
   return (
-    <div className='mt-40'>
+    <div className='mt-40 flex flex-col justify-center items-center'>
         <div>
             <div className=''>
                 <Image 
                     src={project1}
                     alt="scc website"
-                    width={500}
-                    height={500}
-                    className='h-60 w-full'
+                    className='h-64 w-[470px] bg-center sm:w-[623px] sm:h-[330px] md:w-[730px] md:h-[360px] lg:w-[850px] lg:h-[410px]'
                 />
                 <div className='mt-1 flex flex-row items-center'>
-                    <h2 className='text-lg mr-5 text-black'>SCC Website</h2>
-                    <h6 className='text-grey mr-5 text-[12px]'>/</h6>
-                    <h6 className='text-grey text-[14px]'>Design & Development</h6>
+                    <h2 className='text-lg mr-5 text-black md:text-xl'>SCC Website</h2>
+                    <h6 className='text-grey mr-5 text-[12px] md:text-[15px]'>/</h6>
+                    <h6 className='text-grey text-[14px] md:text-[15px]'>Design & Development</h6>
                 </div>
             </div>
         </div>
@@ -28,14 +26,12 @@ function Projects() {
                 <Image 
                     src={project2}
                     alt="scc website"
-                    width={500}
-                    height={500}
-                    className='h-60 w-full'
+                    className='h-64 w-[470px] bg-center sm:w-[623px] sm:h-[330px] md:w-[730px] md:h-[360px] lg:w-[850px] lg:h-[410px]'
                 />
                 <div className='mt-1 flex flex-row items-center'>
-                    <h2 className='text-lg mr-5 text-black'>Luzcella</h2>
-                    <h6 className='text-grey mr-5 text-[12px]'>/</h6>
-                    <h6 className='text-grey text-[14px]'>Design & Development</h6>
+                    <h2 className='text-lg mr-5 text-black md:text-xl'>Luzcella</h2>
+                    <h6 className='text-grey mr-5 text-[12px] md:text-[15px]'>/</h6>
+                    <h6 className='text-grey text-[14px] md:text-[15px]'>Design & Development</h6>
                 </div>
             </div>
         </div>
@@ -45,14 +41,12 @@ function Projects() {
                 <Image 
                     src={project3}
                     alt="scc website"
-                    width={500}
-                    height={500}
-                    className='h-60 w-full'
+                    className='h-64 w-[470px] bg-center sm:w-[623px] sm:h-[330px] md:w-[730px] md:h-[360px] lg:w-[850px] lg:h-[410px]'  
                 />
                 <div className='mt-1 flex flex-row items-center'>
-                    <h2 className='text-lg mr-5 text-black'>Enerluz x Jen</h2>
-                    <h6 className='text-grey mr-5 text-[12px]'>/</h6>
-                    <h6 className='text-grey text-[14px]'>Design & Development</h6>
+                    <h2 className='text-lg mr-5 text-black md:text-xl'>Syborg</h2>
+                    <h6 className='text-grey mr-5 text-[12px] md:text-[15px]'>/</h6>
+                    <h6 className='text-grey text-[14px] md:text-[15px]'>Design & Development</h6>
                 </div>
             </div>
         </div>

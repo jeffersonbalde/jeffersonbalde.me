@@ -8,7 +8,7 @@ type Props = {}
 
 function Header({}: Props) {
   return (
-    <div className='sticky top-0 p-5 w-full z-10 backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-900'>
+    <div className='sticky top-0 py-4 w-full z-10 backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-900'>
       <div className='max-w-container mx-auto py-1 h-full flex justify-between items-center'>
       <motion.div
         initial={{opacity: 0}}
@@ -16,7 +16,7 @@ function Header({}: Props) {
         transition={{duration: 0.5}}
       >
         <Link href="/">
-          <h1 className='text-base text-black'>Jefferson Balde</h1>
+          <h1 className='text-base text-black font-bold'>Jefferson Balde <span className='ml-5 uppercase hidden md:inline font-bold'>Software Engineer &nbsp; / &nbsp; Front End Developer</span> </h1>
         </Link>
       </motion.div>
       <nav className=''>
