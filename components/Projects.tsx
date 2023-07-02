@@ -1,12 +1,15 @@
+'use client'
+import React, { useState } from 'react';
 import Image from 'next/image';
 import project1 from '../public/assets/project1.png'
 import project2 from '../public/assets/project2.png'
 import project3 from '../public/assets/project3.png'
 
 function Projects() {
+
   return (
     <div className='mt-40 flex flex-col justify-center items-center'>
-        <div>
+        <div className='' >
             <div className=''>
                 <Image 
                     src={project1}
