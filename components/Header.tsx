@@ -16,7 +16,7 @@ function Header({}: Props) {
         transition={{duration: 0.5}}
       >
         <Link href="/">
-          <h1 className='text-base text-black font-bold'>Jefferson Balde <span className='ml-5 uppercase hidden md:inline font-bold'>Software Engineer &nbsp; / &nbsp; Front End Developer</span> </h1>
+          <h1 className='text-[18px] text-black font-bold'>Jefferson Balde <span className='ml-5 uppercase hidden md:inline font-bold'>Software Engineer &nbsp; / &nbsp; Front End Developer</span> </h1>
         </Link>
       </motion.div>
       <nav className=''>
@@ -77,7 +77,7 @@ function Header({}: Props) {
               group-hover:translate-x-3 transition-all ease-in-out duration-300'></span>
             </div>
           </motion.div> */}
-          <div className='flex flex-row text-black text-base gap-2'>
+          <div className='flex flex-row text-black text-[16px] gap-2'>
             <p>works, </p>
             <p>about, </p>
             <p>resume</p>  
