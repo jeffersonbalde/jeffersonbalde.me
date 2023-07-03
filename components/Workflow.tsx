@@ -14,8 +14,8 @@ function Workflow() {
   return (
     <div className='mt-28 flex flex-col items-center justify-center text-center'>
         <div>
-            <h1 className='text-black uppercase text-2xl font-bold sm:text-3xl lg:text-4xl'>My Workflow<span className='text-blue text-[31px]'>.</span></h1>
-            <h2 className='text-grey text-base mt-2 sm:w-[500px] sm:text-lg lg:text-xl lg:w-[600px] '>Over the years, I have cultivated a strong adherence to these engineering 
+            <h1 className='text-black uppercase text-3xl font-bold sm:text-4xl lg:text-5xl  '>My Workflow<span className='text-blue text-[31px]'>.</span></h1>
+            <h2 className='text-grey text-[18px] mt-2 sm:w-[500px] sm:text-xl md:text-2xl lg:w-[600px]'>Over the years, I have cultivated a strong adherence to these engineering 
             processes through practical experience.</h2>
         </div>
         <div className='flex flex-row flex-wrap w-96 items-center justify-center md:w-[900px] md:gap-x-16'>

@@ -4,13 +4,13 @@ import profile from '/public/assets/profile2.jpg'
 export default function page() {
   return (
     <div>
-      <div className='flex flex-col items-center mt-20 sm:mt-16 md:mt-20  sm:flex-row sm:gap-10 md:flex-row md:gap-12 md:justify-center lg:gap-20 lg:py-5'>
+      <div className='flex flex-col items-center justify-center mt-20 sm:mt-16 md:mt-20 sm:flex-row sm:gap-10 md:flex-row md:gap-12 md:justify-center lg:gap-20 lg:py-5'>
         <Image
           src={profile}
           alt='Jefferson Balde'
           className='w-64 h-[465px] sm:w-[250px] sm:h-[475px] md:h-[510px] md:w-[270px] lg:w-72 lg:h-[520px]'
         />
-        <div className='mt-10 w-80 flex flex-col gap-6 text-grey sm:mb-10 sm:w-[300px] sm:text-base md:w-[350px] md:tracking-wide md:justify-center md:mb-12 lg:w-[450px]'>
+        <div className='text-[17px] mt-10 w-80 flex flex-col gap-6 text-grey sm:mb-10 sm:w-[300px] sm:text-[17px] md:text-[18px] md:w-[350px] md:tracking-wide md:justify-center md:mb-12 lg:w-[450px]'>
           <div className=''>
             <p>My name is Jefferson Balde. I’m a Front End Developer living in Philippines
             interested in how people and software can work together to make life better.
@@ -24,11 +24,12 @@ export default function page() {
           </div>
           <div>
             <p>I’m also a productivity nerd and love discovering new ways and skills. I 
-          enjoy reading/listening to books about growth and self-development, 
-          drinking coffee, patting my dogs, and going out for leisurely walks.</p>
+              enjoy reading/listening to books about growth and self-development, 
+              drinking coffee, patting my dogs, and going out for leisurely walks
+          .</p>
           </div>
           <div>
-            <p className='text-2xl mt-1 sm:text-3xl'>👨🏻‍💻&nbsp;&nbsp;📚&nbsp;&nbsp;☕&nbsp;&nbsp;🐕&nbsp;&nbsp;🚶🏻‍♂️</p>
+            <p className='text-[33px] mt-1 sm:text-[35px]'>👨🏻‍💻&nbsp;&nbsp;📚&nbsp;&nbsp;☕&nbsp;&nbsp;🐕&nbsp;&nbsp;🚶🏻‍♂️</p>
           </div>
         </div>
       </div>
@@ -41,7 +42,7 @@ export default function page() {
             <hr className='border-grey mb-1 border-[1px]'/>
           </div>
           <div className='text-grey'>
-            <p className='text-black'>Bachelor of Science in Computer Science <span className='ml-4 text-grey hidden sm:inline'>Saint Columban College Pagadian</span> </p>
+            <p className='text-black md:text-[17px]'>Bachelor of Science in Computer Science <span className='ml-4 text-grey hidden sm:inline'>Saint Columban College Pagadian</span> </p>
             <p className='sm:hidden'>Saint Columban College Pagadian</p>
             <p className='text-sm'>Aug 2020 - April 2025</p>
           </div>
@@ -55,22 +56,22 @@ export default function page() {
             <hr className='border-grey mb-1 border-[1px]'/>
           </div>
           <div className='text-grey'>
-            <p className='text-black'>The Complete Web Developer in 2023 <span className='ml-4 text-grey hidden sm:inline'>Udemy</span> </p>
+            <p className='text-black md:text-[17px]'>The Complete Web Developer in 2023 <span className='ml-4 text-grey hidden sm:inline'>Udemy</span> </p>
             <p className='sm:hidden'>Udemy</p>
             <p className=' text-blue'>Certificate</p>
           </div>
           <div className='text-grey mt-14'>
-            <p className='text-black'>The Frontend Developer Career Path <span className='ml-4 text-grey hidden sm:inline'>Scrimba</span> </p>
+            <p className='text-black md:text-[17px]'>The Frontend Developer Career Path <span className='ml-4 text-grey hidden sm:inline'>Scrimba</span> </p>
             <p className='sm:hidden'>Scrimba</p>
             <p className=' text-blue'>Certificate</p>
           </div>
           <div className='text-grey mt-14'>
-            <p className='text-black'>Responsive Web Design Certification <span className='ml-4 text-grey hidden sm:inline'>freeCodeCamp</span> </p>
+            <p className='text-black md:text-[17px]'>Responsive Web Design Certification <span className='ml-4 text-grey hidden sm:inline'>freeCodeCamp</span> </p>
             <p className='sm:hidden'>freeCodeCamp</p>
             <p className=' text-blue'>Certificate</p>
           </div>
           <div className='text-grey mt-14'>
-            <p className='text-black'>JavaScript Algorithms and Data Structures <span className='ml-4 text-grey hidden sm:inline'>freeCodeCamp</span> </p>
+            <p className='text-black md:text-[17px]'>JavaScript Algorithms and Data Structures <span className='ml-4 text-grey hidden sm:inline'>freeCodeCamp</span> </p>
             <p className='sm:hidden'>freeCodeCamp</p>
             <p className=' text-blue'>Certificate</p>
           </div>
