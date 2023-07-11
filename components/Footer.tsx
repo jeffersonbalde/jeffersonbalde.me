@@ -29,7 +29,7 @@ function Footer() {
     }
 
   return (
-    <footer className='mt-28'>
+    <footer className='mt-28 text-black'>
         <hr className=' border-grey'/>
         <div className='mt-10 md:mt-12 md:flex flex-row justify-between md:w-[720px] lg:w-[800px] md:m-auto'>
             <h1 className='text-black font-bold text-3xl mt-6 md:mt-4'>JB</h1>
@@ -43,19 +43,19 @@ function Footer() {
                     <div className=''>
                     {showMenuPages ? (
                         <div className="mt-2 text-base">
-                            <p className="mt-0.5 text-grey cursor-pointer hover:underline underline-offset-1 decoration-1">Home</p>
-                            <p className="mt-0.5 text-grey cursor-pointer hover:underline underline-offset-1 decoration-1">About</p>
-                            <p className="mt-0.5 text-grey cursor-pointer hover:underline underline-offset-1 decoration-1">Works</p>
-                            <p className="mt-0.5 text-grey cursor-pointer hover:underline underline-offset-1 decoration-1">Skills</p>
-                            <p className="mt-0.5 text-grey cursor-pointer hover:underline underline-offset-1 decoration-1">Contact</p>
+                            <p className="mt-0.5  cursor-pointer hover:underline underline-offset-1 decoration-1">Home</p>
+                            <p className="mt-0.5  cursor-pointer hover:underline underline-offset-1 decoration-1">About</p>
+                            <p className="mt-0.5  cursor-pointer hover:underline underline-offset-1 decoration-1">Works</p>
+                            <p className="mt-0.5  cursor-pointer hover:underline underline-offset-1 decoration-1">Skills</p>
+                            <p className="mt-0.5  cursor-pointer hover:underline underline-offset-1 decoration-1">Contact</p>
                         </div>
                     ) :  (
                         <div className="mt-2 text-base hidden md:block">
-                            <p className="mt-0.5 text-grey cursor-pointer hover:underline underline-offset-1 decoration-1">Home</p>
-                            <p className="mt-0.5 text-grey cursor-pointer hover:underline underline-offset-1 decoration-1">About</p>
-                            <p className="mt-0.5 text-grey cursor-pointer hover:underline underline-offset-1 decoration-1">Works</p>
-                            <p className="mt-0.5 text-grey cursor-pointer hover:underline underline-offset-1 decoration-1">Skills</p>
-                            <p className="mt-0.5 text-grey cursor-pointer hover:underline underline-offset-1 decoration-1">Contact</p>
+                            <p className="mt-0.5  cursor-pointer hover:underline underline-offset-1 decoration-1">Home</p>
+                            <p className="mt-0.5  cursor-pointer hover:underline underline-offset-1 decoration-1">About</p>
+                            <p className="mt-0.5  cursor-pointer hover:underline underline-offset-1 decoration-1">Works</p>
+                            <p className="mt-0.5  cursor-pointer hover:underline underline-offset-1 decoration-1">Skills</p>
+                            <p className="mt-0.5  cursor-pointer hover:underline underline-offset-1 decoration-1">Contact</p>
                         </div>
                     )}
                     </div>
@@ -69,21 +69,21 @@ function Footer() {
                         Languages</h1>
                     {showMenuLanguages ? (
                         <div className="mt-2 text-base">
-                            <p className="mt-0.5 text-grey">JavaScript</p>
-                            <p className="mt-0.5 text-grey">TypeScript</p>
-                            <p className="mt-0.5 text-grey">Python</p>
-                            <p className="mt-0.5 text-grey">Java</p>
-                            <p className="mt-0.5 text-grey">PHP</p>
-                            <p className="mt-0.5 text-grey">SQL</p>
+                            <p className="mt-0.5 ">JavaScript</p>
+                            <p className="mt-0.5 ">TypeScript</p>
+                            <p className="mt-0.5 ">Python</p>
+                            <p className="mt-0.5 ">Java</p>
+                            <p className="mt-0.5 ">PHP</p>
+                            <p className="mt-0.5 ">SQL</p>
                         </div>
                     ) : (
                         <div className="mt-2 text-base hidden md:block">
-                            <p className="mt-0.5 text-grey">JavaScript</p>
-                            <p className="mt-0.5 text-grey">TypeScript</p>
-                            <p className="mt-0.5 text-grey">Python</p>
-                            <p className="mt-0.5 text-grey">Java</p>
-                            <p className="mt-0.5 text-grey">PHP</p>
-                            <p className="mt-0.5 text-grey">SQL</p>
+                            <p className="mt-0.5 ">JavaScript</p>
+                            <p className="mt-0.5 ">TypeScript</p>
+                            <p className="mt-0.5 ">Python</p>
+                            <p className="mt-0.5 ">Java</p>
+                            <p className="mt-0.5 ">PHP</p>
+                            <p className="mt-0.5 ">SQL</p>
                         </div>
                     )}
             </div>
@@ -96,23 +96,23 @@ function Footer() {
                         Frameworks</h1>
                     {showMenuFrameworks ? (
                         <div className="mt-2 text-base">
-                            <p className='mt-0.5 text-grey'>ReactJs</p>
-                            <p className='mt-0.5 text-grey'>NextJs</p>
-                            <p className='mt-0.5 text-grey'>Node</p>
-                            <p className='mt-0.5 text-grey'>Express</p>
-                            <p className='mt-0.5 text-grey'>Mongoose</p>
-                            <p className='mt-0.5 text-grey'>Prisma</p>
-                            <p className='mt-0.5 text-grey'>Tailwind</p>
+                            <p className='mt-0.5 '>ReactJs</p>
+                            <p className='mt-0.5 '>NextJs</p>
+                            <p className='mt-0.5 '>Node</p>
+                            <p className='mt-0.5 '>Express</p>
+                            <p className='mt-0.5 '>Mongoose</p>
+                            <p className='mt-0.5 '>Prisma</p>
+                            <p className='mt-0.5 '>Tailwind</p>
                         </div>
                     ) : (
                         <div className="mt-2 text-base hidden md:block">
-                            <p className='mt-0.5 text-grey'>ReactJs</p>
-                            <p className='mt-0.5 text-grey'>NextJs</p>
-                            <p className='mt-0.5 text-grey'>Node</p>
-                            <p className='mt-0.5 text-grey'>Express</p>
-                            <p className='mt-0.5 text-grey'>Mongoose</p>
-                            <p className='mt-0.5 text-grey'>Prisma</p>
-                            <p className='mt-0.5 text-grey'>Tailwind</p>
+                            <p className='mt-0.5 '>ReactJs</p>
+                            <p className='mt-0.5 '>NextJs</p>
+                            <p className='mt-0.5 '>Node</p>
+                            <p className='mt-0.5 '>Express</p>
+                            <p className='mt-0.5 '>Mongoose</p>
+                            <p className='mt-0.5 '>Prisma</p>
+                            <p className='mt-0.5 '>Tailwind</p>
                         </div>
                     )}
             </div>
@@ -125,23 +125,23 @@ function Footer() {
                         Tools</h1>
                     {showMenuTools ? (
                         <div className="mt-2 text-base">
-                            <p className='mt-0.5 text-grey'>VS Code</p>
-                            <p className='mt-0.5 text-grey'>IntelliJ IDEA</p>
-                            <p className='mt-0.5 text-grey'>Eclipse</p>
-                            <p className='mt-0.5 text-grey'>Figma</p>
-                            <p className='mt-0.5 text-grey'>MongoDB Atlas</p>
-                            <p className='mt-0.5 text-grey'>Vercel</p>
-                            <p className='mt-0.5 text-grey'>Render</p>
+                            <p className='mt-0.5 '>VS Code</p>
+                            <p className='mt-0.5 '>IntelliJ IDEA</p>
+                            <p className='mt-0.5 '>Eclipse</p>
+                            <p className='mt-0.5 '>Figma</p>
+                            <p className='mt-0.5 '>MongoDB Atlas</p>
+                            <p className='mt-0.5 '>Vercel</p>
+                            <p className='mt-0.5 '>Render</p>
                         </div>
                     ) : (
                         <div className="mt-2 text-base hidden md:block">
-                            <p className='mt-0.5 text-grey'>VS Code</p>
-                            <p className='mt-0.5 text-grey'>IntelliJ IDEA</p>
-                            <p className='mt-0.5 text-grey'>Eclipse</p>
-                            <p className='mt-0.5 text-grey'>Figma</p>
-                            <p className='mt-0.5 text-grey'>MongoDB Atlas</p>
-                            <p className='mt-0.5 text-grey'>Vercel</p>
-                            <p className='mt-0.5 text-grey'>Render</p>
+                            <p className='mt-0.5 '>VS Code</p>
+                            <p className='mt-0.5 '>IntelliJ IDEA</p>
+                            <p className='mt-0.5 '>Eclipse</p>
+                            <p className='mt-0.5 '>Figma</p>
+                            <p className='mt-0.5 '>MongoDB Atlas</p>
+                            <p className='mt-0.5 '>Vercel</p>
+                            <p className='mt-0.5 '>Render</p>
                         </div>
                     )}
             </div>
@@ -164,7 +164,7 @@ function Footer() {
                     />
                 </div>
                 <div className='mt-2'>
-                    <p className='text-grey text-sm'>Copyright © 2023 Jefferson Balde. <br/>All rights reserved.</p>
+                    <p className=' text-sm'>Copyright © 2023 Jefferson Balde. <br/>All rights reserved.</p>
                     <br />
                 </div>
             </div>

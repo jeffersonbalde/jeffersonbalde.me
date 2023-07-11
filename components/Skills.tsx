@@ -19,18 +19,18 @@ function Skills() {
   return (
     <div className='mt-28 flex flex-col items-center justify-center text-center'>
         <div>
-            <h1 className='text-black uppercase text-3xl font-bold sm:text-4xl lg:text-5xl'>My Experience<span className='text-blue text-[31px]'>.</span></h1>
-            <h2 className='text-grey text-[18px] mt-2 sm:w-[500px] sm:text-xl md:text-2xl lg:w-[600px]'>I have a keen interest in developing innovative projects and expanding 
+            <h1 className='text-black uppercase text-3xl font-bold sm:text-4xl lg:text-5xl'>My Experience<span className='text-black text-[31px]'>.</span></h1>
+            <h2 className='text-black text-[18px] mt-2 sm:w-[500px] sm:text-xl md:text-2xl lg:w-[600px]'>I have a keen interest in developing innovative projects and expanding 
             my knowledge in the following technology stacks.</h2>
         </div>
-        <div className='mt-7 flex flex-row items-center gap-3 flex-wrap w-72 justify-center sm:w-96 lg:w-[500px]'>
+        <div className='mt-7 flex flex-row items-center gap-3 flex-wrap w-72 justify-center sm:w-96 lg:w-[500px] text-black'>
             <div className='flex flex-row border border-blue py-3 px-3'>
                 <Image 
                     src={html}
                     alt='HTML5'
                     className='h-5 w-4 sm:w-5'
                 />
-                <h6 className='uppercase text-grey ml-2 text-sm'>html5</h6>
+                <h6 className='uppercase    ml-2 text-sm'>html5</h6>
             </div>
             <div className='flex flex-row border border-blue py-3 px-3'>
                 <Image 
@@ -38,7 +38,7 @@ function Skills() {
                     alt='CSS3'
                     className='h-5 w-4 sm:w-5'
                 />
-                <h6 className='uppercase text-grey ml-2 text-sm'>css3</h6>
+                <h6 className='uppercase    ml-2 text-sm'>css3</h6>
             </div>
             <div className='flex flex-row border border-blue py-3 px-3'>
                 <Image 
@@ -46,7 +46,7 @@ function Skills() {
                     alt='JavaScript ES6+'
                     className='h-5 w-4 sm:w-5'
                 />
-                <h6 className='text-grey ml-2 text-sm'>JavaScript ES6+</h6>
+                <h6 className=' ml-2 text-sm'>JavaScript ES6+</h6>
             </div>
             <div className='flex flex-row border border-blue py-3 px-3'>
                 <Image 
@@ -54,7 +54,7 @@ function Skills() {
                     alt='TypeScript'
                     className='h-5 w-4 sm:w-5'
                 />
-                <h6 className='text-grey ml-2 text-sm'>TypeScript</h6>
+                <h6 className=' ml-2 text-sm'>TypeScript</h6>
             </div>
             <div className='flex flex-row border border-blue py-3 px-3'>
                 <Image 
@@ -62,7 +62,7 @@ function Skills() {
                     alt='Java'
                     className='h-5 w-4 sm:w-5'
                 />
-                <h6 className='text-grey ml-2 text-sm'>Java</h6>
+                <h6 className=' ml-2 text-sm'>Java</h6>
             </div>
             <div className='flex flex-row border border-blue py-3 px-3'>
                 <Image 
@@ -70,7 +70,7 @@ function Skills() {
                     alt='React.js'
                     className='h-5 w-4 sm:w-5'
                 />
-                <h6 className='text-grey ml-2 text-sm'>React.js</h6>
+                <h6 className=' ml-2 text-sm'>React.js</h6>
             </div>
             <div className='flex flex-row border border-blue py-3 px-3'>
                 <Image 
@@ -78,7 +78,7 @@ function Skills() {
                     alt='Tailwind CSS'
                     className='h-5 w-4 sm:w-5'
                 />
-                <h6 className='text-grey ml-2 text-sm'>Tailwind CSS</h6>
+                <h6 className=' ml-2 text-sm'>Tailwind CSS</h6>
             </div>
             <div className='flex flex-row border border-blue py-3 px-3'>
                 <Image 
@@ -86,7 +86,7 @@ function Skills() {
                     alt='Node.js'
                     className='h-5 w-4 sm:w-5'
                 />
-                <h6 className='text-grey ml-2 text-sm'>Node.js</h6>
+                <h6 className=' ml-2 text-sm'>Node.js</h6>
             </div>
             <div className='flex flex-row border border-blue py-3 px-3'>
                 <Image 
@@ -94,7 +94,7 @@ function Skills() {
                     alt='MongoDB'
                     className='h-5 w-4 sm:w-5'
                 />
-                <h6 className='text-grey ml-2 text-sm'>MongoDB</h6>
+                <h6 className=' ml-2 text-sm'>MongoDB</h6>
             </div>
             <div className='flex flex-row border border-blue py-3 px-3'>
                 <Image 
@@ -102,7 +102,7 @@ function Skills() {
                     alt='mySQL'
                     className='h-5 w-4 sm:w-5'
                 />
-                <h6 className='text-grey ml-2 text-sm'>MySQL</h6>
+                <h6 className=' ml-2 text-sm'>MySQL</h6>
             </div>
             <div className='flex flex-row border border-blue py-3 px-3'>
                 <Image 
@@ -110,7 +110,7 @@ function Skills() {
                     alt='PostgreSQL'
                     className='h-5 w-4 sm:w-5'
                 />
-                <h6 className='text-grey ml-2 text-sm'>PostgreSQL</h6>
+                <h6 className=' ml-2 text-sm'>PostgreSQL</h6>
             </div>
             <div className='flex flex-row border border-blue py-3 px-3'>
                 <Image 
@@ -118,7 +118,7 @@ function Skills() {
                     alt='Next.js'
                     className='h-5 w-4 sm:w-5'
                 />
-                <h6 className='text-grey ml-2 text-sm'>Next.js</h6>
+                <h6 className=' ml-2 text-sm'>Next.js</h6>
             </div>
             <div className='flex flex-row border border-blue py-3 px-3'>
                 <Image 
@@ -126,15 +126,7 @@ function Skills() {
                     alt='Git'
                     className='h-5 w-4 sm:w-5'
                 />
-                <h6 className='text-grey ml-2 text-sm'>Git</h6>
-            </div>
-            <div className='flex flex-row border border-blue py-3 px-3'>
-                <Image 
-                    src={github}
-                    alt='Github'
-                    className='h-5 w-4 sm:w-5'
-                />
-                <h6 className='text-grey ml-2 text-sm'>Github</h6>
+                <h6 className=' ml-2 text-sm'>Git</h6>
             </div>
             <div className='flex flex-row border border-blue py-3 px-3'>
                 <Image 
@@ -142,8 +134,8 @@ function Skills() {
                     alt='Figma'
                     className='h-5 w-4 sm:w-5'
                 />
-                <h6 className='text-grey ml-2 text-sm'>Figma</h6>
-            </div>
+                <h6 className=' ml-2 text-sm'>Figma</h6>
+            </div>  
         </div>
     </div>
   )
