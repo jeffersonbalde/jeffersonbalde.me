@@ -171,7 +171,7 @@ function Footer() {
                         />
                     </Link>
                     <Link
-                        href="wew"
+                        href="https://www.linkedin.com/in/jeffersonbalde/"
                         target="_blank" rel="noreferrer"
                     >
                         <Image 

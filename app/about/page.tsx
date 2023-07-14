@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import profile from '/public/assets/profile2.jpg'
+import Link from 'next/link'
 
 export default function page() {
   return (
@@ -58,7 +59,12 @@ export default function page() {
           <div className='text-grey'>
             <p className='text-black md:text-[17px]'>The Complete Web Developer in 2023 <span className='ml-4 text-grey hidden sm:inline'>Udemy</span> </p>
             <p className='sm:hidden'>Udemy</p>
-            <p className=' text-blue'>Certificate</p>
+            <Link
+              href="https://www.udemy.com/certificate/UC-fe349855-358d-4824-97a6-c061705d600b/"
+              target="_blank" rel="noreferrer"
+            >
+                <p className=' text-blue'>View Certificate</p>
+            </Link>
           </div>
           <div className='text-grey mt-14'>
             <p className='text-black md:text-[17px]'>The Frontend Developer Career Path <span className='ml-4 text-grey hidden sm:inline'>Scrimba</span> </p>
