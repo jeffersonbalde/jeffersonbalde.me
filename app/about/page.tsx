@@ -21,7 +21,7 @@ export default function page() {
           <div>
             <p>Through my passion for coding, 
               I have gained experience in backend technologies as well, including Node.js, Java, SQL, and NoSQL databases. 
-              I have been honing my skills through self-study and paid courses.
+              I have been honing my skills through self-study and online courses.
             </p>
           </div>
           <div>
