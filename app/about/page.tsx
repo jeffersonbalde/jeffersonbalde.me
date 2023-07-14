@@ -13,15 +13,16 @@ export default function page() {
         />
         <div className='text-[17px] mt-10 w-80 flex flex-col gap-6 text-grey sm:mb-10 sm:w-[300px] sm:text-[17px] md:text-[18px] md:w-[350px] md:tracking-wide md:justify-center md:mb-12 lg:w-[450px]'>
           <div className=''>
-            <p>My name is Jefferson Balde. I’m a Front End Developer living in Philippines
-            interested in how people and software can work together to make life better.
-            I specialize in <span className='text-blue'>responsive websites</span> and <span className='text-blue'>functional user interfaces.</span></p>
+            <p>
+              I&apos;m Jefferson Balde, currently studying Computer Science at Saint Columban College Pagadian. 
+              I am a <span className='text-blue'> self-taught Front End Developer specializing in React and Next.js. </span>
+            </p>
           </div>
           <div>
-            <p>I&apos;m an irregular <span className='text-blue'>Computer Science student</span>, 
-            passionate about <span className='text-blue'>programming</span> and <span className='text-blue'>building responsive web and mobile applications</span>. I transitioned from 
-            BSA to pursue my love for coding. Constantly seeking new knowledge 
-            and technologies.</p>
+            <p>Through my passion for coding, 
+              I have gained experience in backend technologies as well, including Node.js, Java, SQL, and NoSQL databases. 
+              I have been honing my skills through self-study and paid courses.
+            </p>
           </div>
           <div>
             <p>I’m also a productivity nerd and love discovering new ways and skills. I 
