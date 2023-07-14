@@ -8,10 +8,10 @@ import project3 from '../public/assets/project3.png'
 function Projects() {
 
   return (
-    <div className='mt-40 flex flex-col justify-center items-center'>
+    <div className='pt-36 flex flex-col justify-center items-center max-w-[1320px] m-auto px-5' id="projects">
         <div className='' >
             <div className=''>
-                <div className='relative group hover:bg-[#FFFFFF] hover:shadow-slate-200 shadow-md'>
+                <div className='relative group hover:bg-[#FFFFFF] hover:shadow-slate-200'>
                     <Image 
                         src={project1}
                         alt="scc website"

@@ -42,13 +42,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={neueMontreal.className}>
-        <Container>
-          <Header />
-          <main className='w-full'>
-          </main>
-          {children}
-        </Container>
+        <Header />
+        <main className='w-full'>
+        </main>
+        {children}
       </body>
     </html>
-  )
+  ) 
 }

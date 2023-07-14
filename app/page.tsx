@@ -7,12 +7,12 @@ import Workflow from "@/components/Workflow";
 
 export default function Home() {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Hero />
       <Projects />
       <Skills />
-      <Workflow />
-      <Contact />
+      <Workflow />  
+      <Contact /> 
       <Footer />
     </div>
   )

@@ -1,10 +1,13 @@
 'use client';
 import Image from 'next/image';
-import githublink from '../public/svg/githublink.svg';
 import linkedLink from '../public/svg/linkedLink.svg'
-import resumeLink from '../public/svg/resumelink.svg'
+import email from '../public/svg/email.svg';
+import github from '../public/svg/github.svg';
+import linkedin from '../public/svg/linkedin.svg';
+
 
 import { useState } from "react";
+import Link from 'next/link';
 
 function Footer() {
     const [showMenuPages, setShowMenuPages] = useState(false);
@@ -29,12 +32,12 @@ function Footer() {
     }
 
   return (
-    <footer className='mt-28 text-black'>
+    <footer className='mt-28 text-black px-5'>
         <hr className=' border-grey'/>
         <div className='mt-10 md:mt-12 md:flex flex-row justify-between md:w-[720px] lg:w-[800px] md:m-auto'>
             <h1 className='text-black font-bold text-3xl mt-6 md:mt-4'>JB</h1>
             <div className='mt-2'>
-                <hr className=' border-grey md:hidden'/>
+                <hr className='a border-grey md:hidden'/>
                 <h1 
                     className='text-black font-bold text-xl mt-2 cursor-pointer'
                     onClick={handleClickPages}
@@ -149,19 +152,33 @@ function Footer() {
         <div className='mt-2 md:block'>
             <hr className=' border-grey md:hidden'/>
             <div className='mt-14 flex flex-col justify-center items-center text-center'>
-                <div className='flex flex-row justify-center gap-3'>
-                    <Image 
-                        src={githublink}
-                        alt='Github Image'
-                    />
-                    <Image 
-                        src={linkedLink}
-                        alt='Linked Image'
-                    />
-                    <Image 
-                        src={resumeLink}
-                        alt='Resume Image'
-                    />
+                <div className='flex flex-row justify-center gap-3 items-center'>
+                    <Link
+                        href="email"
+                    >
+                        <Image 
+                            src={email}
+                            alt='Github Image'
+                        />
+                    </Link>
+                    <Link
+                        href="https://github.com/jeffersonbalde"
+                        target="_blank" rel="noreferrer"
+                    >
+                        <Image 
+                            src={github}
+                            alt='Linked Image'
+                        />
+                    </Link>
+                    <Link
+                        href="wew"
+                        target="_blank" rel="noreferrer"
+                    >
+                        <Image 
+                            src={linkedin}
+                            alt='Resume Image'
+                        />
+                    </Link>
                 </div>
                 <div className='mt-2'>
                     <p className=' text-sm'>Copyright © 2023 Jefferson Balde. <br/>All rights reserved.</p>

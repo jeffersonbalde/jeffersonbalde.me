@@ -17,16 +17,6 @@ module.exports = {
         black: '#333333',
         aboutme: '#D9D9D9'
       },
-    //   screens: {
-    //     xs: "",
-    //     sm: "",
-    //     sml: "",
-    //     md: "",
-    //     mdl: "",
-    //     lg: "",
-    //     lgl: "",
-        
-    // },
   },
   plugins: [],
 }
