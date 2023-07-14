@@ -69,17 +69,31 @@ export default function page() {
           <div className='text-grey mt-14'>
             <p className='text-black md:text-[17px]'>The Frontend Developer Career Path <span className='ml-4 text-grey hidden sm:inline'>Scrimba</span> </p>
             <p className='sm:hidden'>Scrimba</p>
-            <p className=' text-blue'>Certificate</p>
+            <Link
+              href="https://scrimba.com/certificate/uv7kbPhq/gfrontend"
+              target="_blank" rel="noreferrer"
+            >
+              <p className=' text-blue'>View Certificate</p>
+            </Link>
           </div>
           <div className='text-grey mt-14'>
             <p className='text-black md:text-[17px]'>Responsive Web Design Certification <span className='ml-4 text-grey hidden sm:inline'>freeCodeCamp</span> </p>
             <p className='sm:hidden'>freeCodeCamp</p>
-            <p className=' text-blue'>Certificate</p>
+            <Link
+              href="https://www.freecodecamp.org/certification/jeffersonbalde/responsive-web-design"
+              target="_blank" rel="noreferrer"
+            >
+              <p className=' text-blue'>View Certificate</p>
+            </Link>
           </div>
           <div className='text-grey mt-14'>
             <p className='text-black md:text-[17px]'>JavaScript Algorithms and Data Structures <span className='ml-4 text-grey hidden sm:inline'>freeCodeCamp</span> </p>
             <p className='sm:hidden'>freeCodeCamp</p>
-            <p className=' text-blue'>Certificate</p>
+            <Link
+              href="https://www.freecodecamp.org/certification/jeffersonbalde/javascript-algorithms-and-data-structures"
+              target="_blank" rel="noreferrer"
+            >
+              <p className=' text-blue'>View Certificate</p></Link>
           </div>
         </div>
       </div>
