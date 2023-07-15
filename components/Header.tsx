@@ -26,7 +26,7 @@ function Header({}: Props) {
   }
 
   return (
-      <div className='max-w-[1320px] flex flex-row items-center justify-around m-auto sticky top-0 py-4 w-full z-10 backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-300'>
+      <div className='max-w-[1320px] flex flex-row items-center justify-around m-auto sticky top-0 py-4 w-full z-10 backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-300' >
         <motion.div
           initial={{opacity: 0}}
           animate={{opacity: 1}}

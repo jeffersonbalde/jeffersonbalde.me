@@ -37,7 +37,7 @@ function Workflow() {
                 }}
                 initial="hidden"
                 animate={mainControls}
-                transition={{duration: 0.5, delay: 0.9}}
+                transition={{duration: 0.2, delay: 0.1}}
                 >
                 My Workflow<span className='text-black text-[31px]'>.</span>
             </motion.h1>
@@ -50,14 +50,17 @@ function Workflow() {
                 }}
                 initial="hidden"
                 animate={mainControls}
-                transition={{duration: 0.5, delay: 1}}
+                transition={{duration: 0.5, delay: 0.2}}
                 >
                 Over the years, I have cultivated a strong adherence to these engineering 
                 processes through practical experience.
             </motion.h2>
         </div>
         <div className='flex flex-row flex-wrap w-961 items-center justify-center md:w-[900px] md:gap-x-16'>
-            <div className='border border-blue flex flex-col items-left w-[240px] mt-[52px] p-6 h-56 justify-center relative sm:w-72'>
+            <motion.div 
+                className='border border-blue flex flex-col items-left w-[240px] mt-[52px] p-6 h-56 justify-center relative sm:w-72'
+
+                >
                 <Image 
                     src={discovery}
                     alt='Discovery and Planning'
@@ -73,7 +76,7 @@ function Workflow() {
                     <h6 className='text-sm sm:text-base'>Conduct thorough research and planning to define project goals 
                     and deliverables.</h6>
                 </div>
-            </div>
+            </motion.div>
             <div className='border border-blue flex flex-col items-left w-[240px] mt-[52px] p-6 h-56 justify-center relative sm:w-72'>
                 <Image 
                     src={design}

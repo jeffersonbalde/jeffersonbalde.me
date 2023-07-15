@@ -6,7 +6,7 @@ import github from '../public/svg/github.svg';
 import linkedin from '../public/svg/linkedin.svg';
 
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import Link from 'next/link';
 
 function Footer() {
@@ -14,6 +14,24 @@ function Footer() {
     const [showMenuLanguages, setShowMenuLanguages] = useState(false);
     const [showMenuFrameworks, setShowMenuFrameWorks] = useState(false);
     const [showMenuTools, setShowMenuTools] = useState(false);
+
+    const ref = useRef<string | any>("");
+
+    const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+        e.preventDefault();
+        const href = e.currentTarget.href;
+        const targetId = href.replace(/.*\#/, "");
+        const elem = document.getElementById(targetId);
+        elem?.scrollIntoView({
+            behavior: "smooth",
+        })
+  
+        const links = document.querySelectorAll('.nav-link');
+        links.forEach((link) => {
+            link.classList.remove('active');
+        })
+        e.currentTarget.classList.add("active");
+    }
 
     const handleClickPages = () => {
         setShowMenuPages(currentState => !currentState);
@@ -46,19 +64,77 @@ function Footer() {
                     <div className=''>
                     {showMenuPages ? (
                         <div className="mt-2 text-base">
-                            <p className="mt-0.5  cursor-pointer hover:underline underline-offset-1 decoration-1">Home</p>
-                            <p className="mt-0.5  cursor-pointer hover:underline underline-offset-1 decoration-1">About</p>
-                            <p className="mt-0.5  cursor-pointer hover:underline underline-offset-1 decoration-1">Works</p>
-                            <p className="mt-0.5  cursor-pointer hover:underline underline-offset-1 decoration-1">Skills</p>
+                            <Link
+                                href="#home"
+                                onClick={handleScroll}
+                                className='nav-link'
+                            >
+                                <p className="mt-0.5  cursor-pointer hover:underline underline-offset-1 decoration-1">Home</p>
+                            </Link>
+                            <Link
+                                href="/about"
+                                className='nav-link'
+                            >
+                             <p className="mt-0.5  cursor-pointer hover:underline underline-offset-1 decoration-1">About</p>
+                            </Link>
+                            <Link
+                                href="#projects"
+                                className='nav-link'
+                                onClick={handleScroll}
+                            >
+                                <p className="mt-0.5  cursor-pointer hover:underline underline-offset-1 decoration-1">Works</p>
+                            </Link>
+                            <Link
+                                href="#skills"
+                                className='nav-link'
+                                onClick={handleScroll}
+                            >
+                                <p className="mt-0.5  cursor-pointer hover:underline underline-offset-1 decoration-1">Skills</p>
+                            </Link>
+                            <Link
+                                href="#contact"
+                                className='nav-link'
+                                onClick={handleScroll}
+                            >
                             <p className="mt-0.5  cursor-pointer hover:underline underline-offset-1 decoration-1">Contact</p>
+                            </Link>
                         </div>
                     ) :  (
                         <div className="mt-2 text-base hidden md:block">
-                            <p className="mt-0.5  cursor-pointer hover:underline underline-offset-1 decoration-1">Home</p>
-                            <p className="mt-0.5  cursor-pointer hover:underline underline-offset-1 decoration-1">About</p>
-                            <p className="mt-0.5  cursor-pointer hover:underline underline-offset-1 decoration-1">Works</p>
-                            <p className="mt-0.5  cursor-pointer hover:underline underline-offset-1 decoration-1">Skills</p>
+                            <Link
+                                href="#home"
+                                onClick={handleScroll}
+                                className='nav-link'
+                            >
+                                <p className="mt-0.5  cursor-pointer hover:underline underline-offset-1 decoration-1">Home</p>
+                            </Link>
+                            <Link
+                                href="/about"
+                                className='nav-link'
+                            >
+                             <p className="mt-0.5  cursor-pointer hover:underline underline-offset-1 decoration-1">About</p>
+                            </Link>
+                            <Link
+                                href="#projects"
+                                className='nav-link'
+                                onClick={handleScroll}
+                            >
+                                <p className="mt-0.5  cursor-pointer hover:underline underline-offset-1 decoration-1">Works</p>
+                            </Link>
+                            <Link
+                                href="#skills"
+                                className='nav-link'
+                                onClick={handleScroll}
+                            >
+                                <p className="mt-0.5  cursor-pointer hover:underline underline-offset-1 decoration-1">Skills</p>
+                            </Link>
+                            <Link
+                                href="#contact"
+                                className='nav-link'
+                                onClick={handleScroll}
+                            >
                             <p className="mt-0.5  cursor-pointer hover:underline underline-offset-1 decoration-1">Contact</p>
+                            </Link>
                         </div>
                     )}
                     </div>

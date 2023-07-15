@@ -30,7 +30,7 @@ function Hero() {
   }
 
   return (
-    <div className='mt-20 md:mt-32 flex flex-col justify-center items-center text-center'>
+    <div className='mt-20 md:mt-32 flex flex-col justify-center items-center text-center' id="home">
         <motion.div
           initial={{ y: -10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}

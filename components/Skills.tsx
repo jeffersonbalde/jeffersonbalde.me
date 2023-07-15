@@ -31,7 +31,7 @@ function Skills() {
     }, [isInView])
     
   return (
-    <div className='mt-28 flex flex-col items-center justify-center text-center'>
+    <div className='mt-28 flex flex-col items-center justify-center text-center' id='skills'>
         <div>
             <motion.h1 
                 className='text-black uppercase text-3xl font-bold sm:text-4xl lg:text-5xl'
@@ -42,7 +42,7 @@ function Skills() {
                 }}
                 initial="hidden"
                 animate={mainControls}
-                transition={{duration: 0.5, delay: 0.2}}
+                transition={{duration: 0.4, delay: 0.1}}
             >
                     My Experience<span className='text-black text-[31px]'>.</span>
             </motion.h1>
