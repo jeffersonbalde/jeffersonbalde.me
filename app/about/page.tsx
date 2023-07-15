@@ -1,11 +1,24 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 'use client'
 
 import Image from 'next/image'
 import profile from '/public/assets/profile2.jpg'
 import Link from 'next/link'
-import { motion } from 'framer-motion'; 
+import { motion, useAnimation, useInView } from 'framer-motion'; 
+import { useEffect, useRef } from 'react';
 
 export default function page() {
+
+  const ref = useRef(null)
+  const isInView = useInView(ref, { once: true});
+  const mainControls = useAnimation();
+
+  useEffect(() => {
+      if(isInView){
+          mainControls.start("visible");
+      }
+  }, [isInView])
+
   return (
     <div>
       <div className='flex flex-col items-center justify-center mt-20 sm:mt-16 md:mt-20 sm:flex-row sm:gap-10 md:flex-row md:gap-12 md:justify-center lg:gap-20 lg:py-5'>
@@ -62,7 +75,16 @@ export default function page() {
         </div>
       </div>
       <div className=' p-2 bg-aboutme w-full h-screen mt-20 sm:px-3 md:px-6 lg:px-[61px] xl:px-[310px] flex flex-col justify-center tracking-wide'>
-        <div className='p-2 py-12'>
+        <motion.div 
+          className='p-2 py-12'
+          ref={ref}
+          variants={{
+              hidden: { y: -10, opacity: 0 },
+              visible: {  y: 0, opacity: 1}
+          }}
+          initial="hidden"
+          animate={mainControls}
+          transition={{duration: 0.5, delay: 0.2}}>
           <div className=''>
             <h1 className='text-xl mb-2 tracking-wider sm:text-[22px]'>Education</h1>
           </div>
@@ -74,9 +96,19 @@ export default function page() {
             <p className='sm:hidden'>Saint Columban College Pagadian</p>
             <p className='text-sm'>Aug 2020 - April 2025</p>
           </div>
-        </div>
+        </motion.div>
 
-        <div className='p-2 py-12'>
+        <motion.div 
+          className='p-2 py-12'
+          ref={ref}
+          variants={{
+              hidden: { y: -10, opacity: 0 },
+              visible: {  y: 0, opacity: 1}
+          }}
+          initial="hidden"
+          animate={mainControls}
+          transition={{duration: 0.5, delay: 0.4}}
+          >
           <div className=''>
             <h1 className='text-xl mb-2 tracking-wider sm:text-[22px]'>Certifications</h1>
           </div>  
@@ -122,7 +154,7 @@ export default function page() {
             >
               <p className=' text-blue'>View Certificate</p></Link>
           </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   )
