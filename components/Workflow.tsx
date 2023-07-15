@@ -51,7 +51,7 @@ function Workflow() {
                 My Workflow<span className='text-black text-[31px]'>.</span>
             </motion.h1>
             <motion.h2 
-                className='text-black text-[18px] mt-2 sm:w-[500px] sm:text-xl md:text-2xl lg:w-[600px]'
+                className='text-black text-[18px] mt-2 sm:w-[500px] sm:text-xl md:text-2xl lg:w-[600px] px-2 '
                 ref={ref}
                 variants={{
                     hidden: { y: -10, opacity: 0 },

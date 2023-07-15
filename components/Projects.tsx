@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
-import project1 from '../public/assets/project11.png'
+import project1 from '../public/assets/project1.png'
 import project2 from '../public/assets/project2.png'
 import project3 from '../public/assets/project3.png'
 import { motion, useAnimation, useInView } from 'framer-motion';
