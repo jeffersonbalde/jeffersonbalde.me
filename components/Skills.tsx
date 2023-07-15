@@ -184,11 +184,11 @@ function Skills() {
                 transition={{ duration: 0.8, delay: 0.5}}
                 >
                 <Image 
-                    src={tailwind}
-                    alt='Tailwind CSS'
+                    src={nextjs}
+                    alt='Next.js'
                     className='h-5 w-4 sm:w-5'
                 />
-                <h6 className=' ml-2 text-sm'>Tailwind CSS</h6>
+                <h6 className=' ml-2 text-sm'>Next.js</h6>
             </motion.div>
             <motion.div 
                 className='flex flex-row border border-blue py-3 px-3'
@@ -273,11 +273,11 @@ function Skills() {
                 animate={mainControls}
                 transition={{ duration: 0.8, delay: 0.5}}>
                 <Image 
-                    src={nextjs}
-                    alt='Next.js'
+                    src={tailwind}
+                    alt='Tailwind CSS'
                     className='h-5 w-4 sm:w-5'
                 />
-                <h6 className=' ml-2 text-sm'>Next.js</h6>
+                <h6 className=' ml-2 text-sm'>Tailwind CSS</h6>
             </motion.div>
             <motion.div 
                 className='flex flex-row border border-blue py-3 px-3'

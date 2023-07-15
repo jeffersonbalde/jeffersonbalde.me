@@ -28,7 +28,16 @@ function Projects() {
                     animate={{ y: 0, opacity: 1 }}
                     transition={{duration: 0.8, delay: 0.8}}
                 >
-                    <div className='relative group hover:bg-[#FFFFFF] hover:shadow-slate-200'>
+                    <motion.div 
+                        className='relative group hover:bg-[#FFFFFF] hover:shadow-slate-200'
+                        whileHover={{
+                            x: 0,
+                            y: 0,
+                            scale: 0.99,
+                            rotate: 0,
+                        }}
+                        transition={{duration: 0.2}}
+                        >
                         <Image 
                             src={project1}
                             alt="scc website"
@@ -47,7 +56,7 @@ function Projects() {
                                 <a href="#">Github</a>
                             </div>
                         </div>
-                    </div>
+                    </motion.div>
                     <div className='mt-1 flex flex-row items-center'>
                         <h2 className='text-lg mr-5 text-black md:text-xl'>SCC Website</h2>
                         <h6 className='text-grey mr-5 text-[12px] md:text-[15px]'>/</h6>
