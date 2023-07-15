@@ -58,9 +58,9 @@ function Projects() {
                         </div>
                     </motion.div>
                     <div className='mt-1 flex flex-row items-center'>
-                        <h2 className='text-lg mr-5 text-black md:text-xl'>SCC Website</h2>
+                        <h2 className='text-lg mr-5 text-black md:text-xl'>PixelIT</h2>
                         <h6 className='text-grey mr-5 text-[12px] md:text-[15px]'>/</h6>
-                        <h6 className='text-grey text-[15px] md:text-[16px]'>ReactJS &nbsp;&nbsp;TailwindCSS &nbsp;&nbsp;GSAP</h6>
+                        <h6 className='text-grey text-[15px] md:text-[16px]'>HTML5 &nbsp;&nbsp;CSS3 &nbsp;&nbsp;JavaScript</h6>
                     </div>
                 </motion.div>        
             </div>
