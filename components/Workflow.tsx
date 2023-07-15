@@ -26,18 +26,27 @@ function Workflow() {
     }, [isInView])
 
   return (
-    <div className='mt-28 flex flex-col items-center justify-center text-center'>
-        <div>
+    <motion.div 
+        className='mt-28 flex flex-col items-center justify-center text-center'
+        ref={ref}
+        variants={{
+            hidden: { y: -10, opacity: 0 },
+            visible: {  y: 0, opacity: 1}
+        }}
+        initial="hidden"
+        animate={mainControls}
+        transition={{duration: 0.1}}
+    >
+        <div > 
             <motion.h1 
                 className='text-black uppercase text-3xl font-bold sm:text-4xl lg:text-5xl'
-                ref={ref}
                 variants={{
                     hidden: { y: -10, opacity: 0 },
                     visible: {  y: 0, opacity: 1}
                 }}
                 initial="hidden"
                 animate={mainControls}
-                transition={{duration: 0.2, delay: 0.1}}
+                transition={{duration: 0.2}}
                 >
                 My Workflow<span className='text-black text-[31px]'>.</span>
             </motion.h1>
@@ -50,7 +59,7 @@ function Workflow() {
                 }}
                 initial="hidden"
                 animate={mainControls}
-                transition={{duration: 0.5, delay: 0.2}}
+                transition={{duration: 0.5, delay: 0.1}}
                 >
                 Over the years, I have cultivated a strong adherence to these engineering 
                 processes through practical experience.
@@ -59,7 +68,14 @@ function Workflow() {
         <div className='flex flex-row flex-wrap w-961 items-center justify-center md:w-[900px] md:gap-x-16'>
             <motion.div 
                 className='border border-blue flex flex-col items-left w-[240px] mt-[52px] p-6 h-56 justify-center relative sm:w-72'
-
+                ref={ref}
+                variants={{
+                    hidden: { y: -10, opacity: 0 },
+                    visible: {  y: 0, opacity: 1}
+                }}
+                initial="hidden"
+                animate={mainControls}
+                transition={{duration: 0.5, delay: 0.4}}
                 >
                 <Image 
                     src={discovery}
@@ -77,7 +93,17 @@ function Workflow() {
                     and deliverables.</h6>
                 </div>
             </motion.div>
-            <div className='border border-blue flex flex-col items-left w-[240px] mt-[52px] p-6 h-56 justify-center relative sm:w-72'>
+            <motion.div 
+                className='border border-blue flex flex-col items-left w-[240px] mt-[52px] p-6 h-56 justify-center relative sm:w-72'
+                ref={ref}
+                variants={{
+                    hidden: { y: -10, opacity: 0 },
+                    visible: {  y: 0, opacity: 1}
+                }}
+                initial="hidden"
+                animate={mainControls}
+                transition={{duration: 0.5, delay: 0.5}}
+                >
                 <Image 
                     src={design}
                     alt='Design and Prototyping'
@@ -93,8 +119,18 @@ function Workflow() {
                     <h6 className='text-sm sm:text-base'>Create intuitive and visually appealing 
                     designs with interactive prototypes.</h6>
                 </div>
-            </div>
-            <div className='text-black border border-blue flex flex-col items-left w-[240px] mt-[52px] p-6 h-56 justify-center relative sm:w-72'>
+            </motion.div>
+            <motion.div 
+                className='text-black border border-blue flex flex-col items-left w-[240px] mt-[52px] p-6 h-56 justify-center relative sm:w-72'
+                ref={ref}
+                variants={{
+                    hidden: { y: -10, opacity: 0 },
+                    visible: {  y: 0, opacity: 1}
+                }}
+                initial="hidden"
+                animate={mainControls}
+                transition={{duration: 0.5, delay: 0.6}}
+            >
                 <Image 
                     src={development}
                     alt='Development'
@@ -110,8 +146,18 @@ function Workflow() {
                     <h6 className='text-sm sm:text-base'>Write clean and efficient code using 
                     industry best practices.</h6>
                 </div>
-            </div>
-            <div className='border border-blue flex flex-col items-left w-[240px] mt-[52px] p-6 h-56 justify-center relative sm:w-72'>
+            </motion.div>
+            <motion.div 
+                className='border border-blue flex flex-col items-left w-[240px] mt-[52px] p-6 h-56 justify-center relative sm:w-72'
+                ref={ref}
+                variants={{
+                    hidden: { y: -10, opacity: 0 },
+                    visible: {  y: 0, opacity: 1}
+                }}
+                initial="hidden"
+                animate={mainControls}
+                transition={{duration: 0.5, delay: 0.7}}
+            >
                 <Image 
                     src={testing}
                     alt='Testing and Quality Assurance'
@@ -127,8 +173,18 @@ function Workflow() {
                     <h6 className='text-sm sm:text-base'>Perform rigorous testing to identify 
                     and fix any issues.</h6>    
                 </div>
-            </div>
-            <div className='border border-blue flex flex-col items-left w-[240px] mt-[52px] p-6 h-56 justify-center relative sm:w-72'>
+            </motion.div>
+            <motion.div 
+                className='border border-blue flex flex-col items-left w-[240px] mt-[52px] p-6 h-56 justify-center relative sm:w-72'
+                ref={ref}
+                variants={{
+                    hidden: { y: -10, opacity: 0 },
+                    visible: {  y: 0, opacity: 1}
+                }}
+                initial="hidden"
+                animate={mainControls}
+                transition={{duration: 0.5, delay: 0.8}}    
+            >
                 <Image 
                     src={discovery}
                     alt='Deployment and Maintenance'
@@ -144,9 +200,9 @@ function Workflow() {
                     <h6 className='text-sm sm:text-base'>Deploy the application and provide ongoing support 
                     to ensure its smooth operation.</h6>
                 </div>
-            </div>
+            </motion.div>
         </div>
-    </div>
+    </motion.div>
   )
 }
 

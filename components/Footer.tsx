@@ -1,12 +1,12 @@
 'use client';
+
 import Image from 'next/image';
 import linkedLink from '../public/svg/linkedLink.svg'
 import email from '../public/svg/email.svg';
 import github from '../public/svg/github.svg';
 import linkedin from '../public/svg/linkedin.svg';
-
-
-import { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from 'react';
+import { motion, useAnimation, useInView } from 'framer-motion';
 import Link from 'next/link';
 
 function Footer() {
@@ -15,7 +15,15 @@ function Footer() {
     const [showMenuFrameworks, setShowMenuFrameWorks] = useState(false);
     const [showMenuTools, setShowMenuTools] = useState(false);
 
-    const ref = useRef<string | any>("");
+    const ref = useRef(null)
+    const isInView = useInView(ref, { once: true});
+    const mainControls = useAnimation();
+
+    useEffect(() => {
+        if(isInView){
+            mainControls.start("visible");
+        }
+    }, [isInView])
 
     const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
         e.preventDefault();
@@ -47,10 +55,20 @@ function Footer() {
 
     const handleClickTools = () => {
         setShowMenuTools(currentState => !currentState);
-    }
+    }   
 
   return (
-    <footer className='mt-28 text-black px-5'>
+    <motion.div 
+        className='mt-28 text-black px-5'
+        ref={ref}
+        variants={{
+            hidden: { y: -10, opacity: 0 },
+            visible: {  y: 0, opacity: 1}
+        }}
+        initial="hidden"
+        animate={mainControls}
+        transition={{duration: 0.5, delay: 0.4}}    
+    >
         <hr className=' border-grey'/>
         <div className='mt-10 md:mt-12 md:flex flex-row justify-between md:w-[720px] lg:w-[800px] md:m-auto'>
             <h1 className='text-black font-bold text-3xl mt-6 md:mt-4'>JB</h1>
@@ -225,7 +243,17 @@ function Footer() {
                     )}
             </div>
         </div>
-        <div className='mt-2 md:block'>
+        <motion.div 
+            className='mt-2 md:block'
+            ref={ref}
+            variants={{
+                hidden: { y: -10, opacity: 0 },
+                visible: {  y: 0, opacity: 1}
+            }}
+            initial="hidden"
+            animate={mainControls}
+            transition={{duration: 0.5, delay: 0.6}}    
+        >
             <hr className=' border-grey md:hidden'/>
             <div className='mt-14 flex flex-col justify-center items-center text-center'>
                 <div className='flex flex-row justify-center gap-3 items-center'>
@@ -261,8 +289,8 @@ function Footer() {
                     <br />
                 </div>
             </div>
-        </div>
-    </footer>
+        </motion.div>
+    </motion.div>
   )
 }
 
