@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
-import project1 from '../public/assets/project1.png'
+import project1 from '../public/assets/project11.png'
 import project2 from '../public/assets/project2.png'
 import project3 from '../public/assets/project3.png'
 import { motion, useAnimation, useInView } from 'framer-motion';
@@ -59,8 +59,8 @@ function Projects() {
                     </motion.div>
                     <div className='mt-1 flex flex-row items-center'>
                         <h2 className='text-lg mr-5 text-black md:text-xl'>PixelIT</h2>
-                        <h6 className='text-grey mr-5 text-[12px] md:text-[15px]'>/</h6>
-                        <h6 className='text-grey text-[15px] md:text-[16px]'>HTML5 &nbsp;&nbsp;CSS3 &nbsp;&nbsp;JavaScript</h6>
+                        {/* <h6 className='text-grey mr-5 text-[12px] md:text-[15px]'>/</h6> */}
+                        <h6 className='text-grey text-[15px] md:text-[16px] ml-5'>HTML5 &nbsp;&nbsp; /&nbsp;&nbsp; CSS3 &nbsp;&nbsp; /&nbsp;&nbsp; JavaScript</h6>
                     </div>
                 </motion.div>        
             </div>
