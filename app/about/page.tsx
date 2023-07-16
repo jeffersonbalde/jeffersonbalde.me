@@ -20,8 +20,8 @@ export default function page() {
   }, [isInView])
 
   return (
-    <div>
-      <div className='flex flex-col items-center justify-center mt-20 sm:mt-16 md:mt-20 sm:flex-row sm:gap-10 md:flex-row md:gap-12 md:justify-center lg:gap-20 lg:py-5'>
+    <div className=''>
+      <div className='flex flex-col items-center justify-center mt-20 sm:mt-16 md:mt-20 sm:flex-row sm:gap-10 md:flex-row md:gap-12 md:justify-center lg:gap-20 lg:py-5 '>
       <motion.div
           initial={{ y: -10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
@@ -33,7 +33,7 @@ export default function page() {
           className='w-64 h-[465px] sm:w-[250px] sm:h-[475px] md:h-[510px] md:w-[270px] lg:w-72 lg:h-[520px]'
         />
       </motion.div>
-        <div className='text-[17px] mt-10 w-80 flex flex-col gap-6 text-grey sm:mb-10 sm:w-[300px] sm:text-[17px] md:text-[18px] md:w-[350px] md:tracking-wide md:justify-center md:mb-12 lg:w-[450px]'>
+        <div className='text-[17px] mt-10 w-80 flex flex-col gap-6 text-grey sm:mb-10 sm:w-[300px] sm:text-[17px] md:text-[18px] md:w-[350px] md:tracking-wide md:justify-center md:mb-12 lg:w-[450px] px-2'>
           <motion.div 
             className=''
             initial={{ y: -10, opacity: 0 }}
