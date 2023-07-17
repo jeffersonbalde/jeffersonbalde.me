@@ -118,7 +118,7 @@ function Projects() {
                         <Image 
                             src={project3}
                             alt="scc website"
-                            className='group-hover:opacity-[0.02] h-64 w-[470px] bg-center sm:w-[623px] sm:h-[330px] md:w-[730px] md:h-[360px] lg:w-[850px] lg:h-[410px]'
+                            className='object-cover group-hover:opacity-[0.02] h-64 w-[470px] bg-center sm:w-[623px] sm:h-[330px] md:w-[730px] md:h-[360px] lg:w-[850px] lg:h-[410px]'
                         />
                         <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden group-hover:block w-[290px] sm:w-[500px] md:w-[610px] lg:w-[700px]'>
                             <div>
@@ -135,10 +135,9 @@ function Projects() {
                         </div>
                     </div>
                     <div className='mt-1 flex flex-row items-center'>
-                        <h2 className='text-lg mr-5 text-black md:text-xl'>Syborg</h2>
-                        <h6 className='text-grey mr-5 text-[12px] md:text-[15px]'>/</h6>
-                        <h6 className='text-grey text-[15px] md:text-[16
-                            px]'>ReactJS &nbsp;&nbsp;TailwindCSS &nbsp;&nbsp;GSAP</h6>
+                        <h2 className='text-lg mr-5 text-black md:text-xl'>Fusion</h2>
+                        {/* <h6 className='text-grey mr-5 text-[12px] md:text-[15px]'>/</h6> */}
+                        <h6 className='text-grey text-[15px] md:text-[16px] ml-5'>HTML5 &nbsp;&nbsp; /&nbsp;&nbsp; CSS3 &nbsp;&nbsp; /&nbsp;&nbsp; JavaScript</h6>
                 </div>
         </motion.div>
     </div>
