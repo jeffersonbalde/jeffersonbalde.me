@@ -140,9 +140,10 @@ function Projects() {
                         {/* <h6 className='text-grey mr-5 text-[12px] md:text-[15px]'>/</h6> */}
                         <h6 className='text-grey text-[15px] md:text-[16px] ml-5'>HTML5 &nbsp;&nbsp; /&nbsp;&nbsp; CSS3 &nbsp;&nbsp; /&nbsp;&nbsp; JavaScript</h6>
                 </div>
+                
         </motion.div>
 
-        <motion.div 
+        {/* <motion.div 
             className='mt-12'
             ref={ref}
             variants={{
@@ -151,8 +152,9 @@ function Projects() {
             }}
             initial="hidden"
             animate={mainControls}
-            transition={{duration: 0.5, delay: 0.5}}
-        >
+            transition={{duration: 0.7, delay: 0.7}}
+        > */}
+        <div className='mt-12'>
                 <div className='relative group hover:bg-[#FFFFFF] hover:shadow-slate-200 shadow-md'>
                         <Image 
                             src={project4}
@@ -177,9 +179,10 @@ function Projects() {
                         <h2 className='text-lg mr-5 text-black md:text-xl'>MarketMinds</h2>
                         {/* <h6 className='text-grey mr-5 text-[12px] md:text-[15px]'>/</h6> */}
                         <h6 className='text-grey text-[15px] md:text-[16px] ml-5'>HTML5 &nbsp;&nbsp; /&nbsp;&nbsp; CSS3 &nbsp;&nbsp; /&nbsp;&nbsp; JavaScript</h6>
-                </div>
-        </motion.div>
-    </div>
+                     </div>
+         {/* </motion.div> */}
+        </div>
+     </div>
   )
 }
 
