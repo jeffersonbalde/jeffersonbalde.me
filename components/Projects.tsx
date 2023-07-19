@@ -276,7 +276,7 @@ function Projects() {
                     <div className='mt-1 flex flex-row items-center'>
                         <h2 className='text-lg mr-5 text-black md:text-xl'>DailyNews</h2>
                         {/* <h6 className='text-grey mr-5 text-[12px] md:text-[15px]'>/</h6> */}
-                        <h6 className='text-grey text-[15px] md:text-[16px] ml-5'>TypeScript &nbsp;&nbsp; /&nbsp;&nbsp; Next.js &nbsp;&nbsp; /&nbsp;&nbsp; Tailwind</h6>
+                        <h6 className='text-grey text-[15px] md:text-[16px] ml-5'>TypeScript &nbsp;&nbsp; /&nbsp;&nbsp; Next.js &nbsp;&nbsp; /&nbsp;&nbsp; React.js /&nbsp;&nbsp; TailwindCSS /&nbsp;&nbsp; /&nbsp;&nbsp; GraphQL</h6>
                      </div>
         </div>
      </div>
