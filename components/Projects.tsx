@@ -43,7 +43,7 @@ function Projects() {
                         <Image 
                             src={project1}
                             alt="scc website"
-                            className='object-cover group-hover:opacity-[0.02] h-64 w-[470px] bg-center sm:w-[623px] sm:h-[330px] md:w-[730px] md:h-[360px] lg:w-[850px] lg:h-[410px]'
+                            className='object-cover group-hover:opacity-[0.06] h-64 w-[470px] bg-center sm:w-[623px] sm:h-[330px] md:w-[730px] md:h-[360px] lg:w-[850px] lg:h-[410px]'
                         />
                         <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden group-hover:block w-[290px] sm:w-[530px] md:w-[650px] lg:w-[700px]'>
                             <div className='text-center'>
@@ -90,13 +90,13 @@ function Projects() {
                 <Image 
                     src={project2}
                     alt="scc website"
-                    className='object-cover group-hover:opacity-[0.02] h-64 w-[470px] bg-center sm:w-[623px] sm:h-[330px] md:w-[730px] md:h-[360px] lg:w-[850px] lg:h-[410px]'
+                    className='object-cover group-hover:opacity-[0.06] h-64 w-[470px] bg-center sm:w-[623px] sm:h-[330px] md:w-[730px] md:h-[360px] lg:w-[850px] lg:h-[410px]'
                 />
                 <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden group-hover:block w-[290px] sm:w-[500px] md:w-[610px] lg:w-[700px]'>
                     <div className='text-center'>
                         <p className='text-xl sm:text-3xl md:text-4xl'> 
                             <span className='text-grey font-bold'>Revolve </span> 
-                            <span className='text-grey'>elevates your brand with creative geniuses, weaving magic through web design, marketing, and technology.</span>
+                            <span className='text-grey'>connects brands and engages audiences with full-suite digital solutions, tailored to amplify online presence and drive business growth</span>
                         </p>
                     </div>
                     <div className='mt-4 text-grey text-[17px] sm:text-xl md:text-2xl text-center'> 
@@ -136,13 +136,13 @@ function Projects() {
                         <Image 
                             src={project5}
                             alt="scc website"
-                            className='object-cover group-hover:opacity-[0.02] h-64 w-[470px] bg-center sm:w-[623px] sm:h-[330px] md:w-[730px] md:h-[360px] lg:w-[850px] lg:h-[410px]'
+                            className='object-cover group-hover:opacity-[0.06] h-64 w-[470px] bg-center sm:w-[623px] sm:h-[330px] md:w-[730px] md:h-[360px] lg:w-[850px] lg:h-[410px]'
                         />
                         <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden group-hover:block w-[290px] sm:w-[500px] md:w-[610px] lg:w-[700px]'>
                             <div className='text-center'>
                                 <p className='text-xl sm:text-3xl md:text-4xl'> 
                                     <span className='text-grey font-bold'>OptiReach </span> 
-                                    <span className='text-grey'>elevates your brand with creative geniuses, weaving magic through web design, marketing, and technology.</span>
+                                    <span className='text-grey'>empowers digital journey, navigating the landscape with confidence through data-driven strategies and innovative solutions.</span>
                                 </p>
                             </div>
                             <div className='mt-4 text-grey text-[17px] sm:text-xl md:text-2xl text-center'> 
@@ -184,13 +184,13 @@ function Projects() {
                         <Image 
                             src={project3}
                             alt="scc website"
-                            className='object-cover group-hover:opacity-[0.02] h-64 w-[470px] bg-center sm:w-[623px] sm:h-[330px] md:w-[730px] md:h-[360px] lg:w-[850px] lg:h-[410px]'
+                            className='object-cover group-hover:opacity-[0.06] h-64 w-[470px] bg-center sm:w-[623px] sm:h-[330px] md:w-[730px] md:h-[360px] lg:w-[850px] lg:h-[410px]'
                         />
                         <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden group-hover:block w-[290px] sm:w-[500px] md:w-[610px] lg:w-[700px]'>
                             <div className='text-center'>
                                 <p className='text-xl sm:text-3xl md:text-4xl'> 
                                     <span className='text-grey font-bold'>Fusion </span> 
-                                    <span className='text-grey'>elevates your brand with creative geniuses, weaving magic through web design, marketing, and technology.</span>
+                                    <span className='text-grey'>is a great platform to buy, sell and rent your properties without any agent or commisions.</span>
                                 </p>
                             </div>
                             <div className='mt-4 text-grey text-[17px] sm:text-xl md:text-2xl text-center'> 
@@ -221,13 +221,13 @@ function Projects() {
                         <Image 
                             src={project4}
                             alt="scc website"
-                            className='object-cover group-hover:opacity-[0.02] h-64 w-[470px] bg-center sm:w-[623px] sm:h-[330px] md:w-[730px] md:h-[360px] lg:w-[850px] lg:h-[410px]'
+                            className='object-cover group-hover:opacity-[0.06] h-64 w-[470px] bg-center sm:w-[623px] sm:h-[330px] md:w-[730px] md:h-[360px] lg:w-[850px] lg:h-[410px]'
                         />
                         <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden group-hover:block w-[290px] sm:w-[500px] md:w-[610px] lg:w-[700px]'>
                             <div className='text-center'>
                                 <p className='text-xl sm:text-3xl md:text-4xl'> 
                                     <span className='text-grey font-bold'>MarketMinds </span> 
-                                    <span className='text-grey'>elevates your brand with creative geniuses, weaving magic through web design, marketing, and technology.</span>
+                                    <span className='text-grey'>is committed to propelling your brand towards unrivaled online success, from ideation to execution.</span>
                                 </p>
                             </div>
                             <div className='mt-4 text-grey text-[17px] sm:text-xl md:text-2xl text-center'> 
@@ -242,6 +242,7 @@ function Projects() {
                         <h6 className='text-grey text-[15px] md:text-[16px] ml-5'>HTML5 &nbsp;&nbsp; /&nbsp;&nbsp; CSS3 &nbsp;&nbsp; /&nbsp;&nbsp; JavaScript</h6>
                      </div>
         </div>
+        {/* <h3 >Other Works</h3> */}
      </div>
   )
 }
