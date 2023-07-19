@@ -7,6 +7,7 @@ import project2 from '../public/assets/project2.png'
 import project3 from '../public/assets/project3.png'
 import project4 from '../public/assets/project4.png'
 import project5 from '../public/assets/project5.png'
+import project6 from '../public/assets/project6.png'
 import { motion, useAnimation, useInView } from 'framer-motion';
 import { idText } from 'typescript';
 
@@ -242,7 +243,42 @@ function Projects() {
                         <h6 className='text-grey text-[15px] md:text-[16px] ml-5'>HTML5 &nbsp;&nbsp; /&nbsp;&nbsp; CSS3 &nbsp;&nbsp; /&nbsp;&nbsp; JavaScript</h6>
                      </div>
         </div>
-        {/* <h3 >Other Works</h3> */}
+
+        <div className='mt-12'>
+                <motion.div 
+                    className='relative group hover:bg-[#FFFFFF] hover:shadow-slate-200 shadow-md'
+                    whileHover={{
+                        x: 0,
+                        y: 0,
+                        scale: 0.99,
+                        rotate: 0,
+                    }}
+                    transition={{duration: 0.2}}
+                >
+                        <Image 
+                            src={project6}
+                            alt="scc website"
+                            className='object-cover group-hover:opacity-[0.06] h-64 w-[470px] bg-center sm:w-[623px] sm:h-[330px] md:w-[730px] md:h-[360px] lg:w-[850px] lg:h-[410px]'
+                        />
+                        <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden group-hover:block w-[290px] sm:w-[500px] md:w-[610px] lg:w-[700px]'>
+                            <div className='text-center'>
+                                <p className='text-xl sm:text-3xl md:text-4xl'> 
+                                    <span className='text-grey font-bold'>DailyNews </span> 
+                                    <span className='text-grey'>is a web application that allows users to browse news from around the world.</span>
+                                </p>
+                            </div>
+                            <div className='mt-4 text-grey text-[17px] sm:text-xl md:text-2xl text-center'> 
+                                <a href="https://jdailynews.vercel.app/" target='_blank' className='mr-4 text-lg text-blue sm:text-2xl hover:underline decoration-1 '>View Website</a>
+                                {/* <a href="#">Github</a> */}
+                            </div>
+                        </div>
+                    </motion.div>
+                    <div className='mt-1 flex flex-row items-center'>
+                        <h2 className='text-lg mr-5 text-black md:text-xl'>DailyNews</h2>
+                        {/* <h6 className='text-grey mr-5 text-[12px] md:text-[15px]'>/</h6> */}
+                        <h6 className='text-grey text-[15px] md:text-[16px] ml-5'>TypeScript &nbsp;&nbsp; /&nbsp;&nbsp; Next.js &nbsp;&nbsp; /&nbsp;&nbsp; Tailwind</h6>
+                     </div>
+        </div>
      </div>
   )
 }
