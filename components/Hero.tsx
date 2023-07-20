@@ -79,7 +79,7 @@ function Hero() {
             transition={{duration: 0.7, delay: 0.7}}
           >
           <div className='mt-5'>
-            <h1 className='text-black text-lg sm:text-xl font-semibold'>
+            <h1 className='text-blue text-lg sm:text-xl font-semibold'>
               <Link
                 href="#projects"
                 className='nav-link'
@@ -87,7 +87,7 @@ function Hero() {
               >
               View Projects
               </Link>
-                <span className='font-light'> &nbsp; or &nbsp; </span> 
+                <span className='font-light text-black'> &nbsp; or &nbsp; </span> 
               <Link
                 href="/about"
                 className='nav-link'
