@@ -82,7 +82,7 @@ function Hero() {
             <h1 className='text-blue text-lg sm:text-xl font-semibold'>
               <Link
                 href="#projects"
-                className='nav-link'
+                className='nav-link '
                 onClick={handleScroll}
               >
               View Projects
