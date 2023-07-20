@@ -285,7 +285,9 @@ function Footer() {
                     </Link>
                 </div>
                 <div className='mt-2'>
-                    <p className=' text-sm'>Copyright © 2023 Jefferson Balde. <br/>All rights reserved.</p>
+                    <p className=' text-sm'>Copyright © 2023 
+                        <a href="https://www.linkedin.com/in/jeffersonbalde/" className='text-blue underline decoration-1' target='_blank'> Jefferson Balde. </a> <br/>All rights reserved.
+                    </p>
                     <br />
                 </div>
             </div>

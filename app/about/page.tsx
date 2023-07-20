@@ -92,8 +92,8 @@ export default function page() {
             <hr className='border-grey mb-1 border-[1px]'/>
           </div>
           <div className='text-grey'>
-            <p className='text-black md:text-[17px]'>Bachelor of Science in Computer Science <span className='ml-4 text-grey hidden sm:inline'>Saint Columban College Pagadian</span> </p>
-            <p className='sm:hidden'>Saint Columban College Pagadian</p>
+            <p className='text-black md:text-[17px]'>Bachelor of Science in Computer Science <a className='ml-4 text-blue hidden sm:inline underline decoration-1' href='https://www.sccpag.edu.ph/' target='_blank'>Saint Columban College Pagadian</a> </p>
+            <a className='sm:hidden text-blue underline decoration-1' href='https://www.sccpag.edu.ph/' target='_blank'>Saint Columban College Pagadian</a>
             <p className='text-sm'>Aug 2020 - April 2025</p>
           </div>
         </motion.div>
@@ -122,7 +122,7 @@ export default function page() {
               href="https://www.udemy.com/certificate/UC-fe349855-358d-4824-97a6-c061705d600b/"
               target="_blank" rel="noreferrer"
             >
-                <p className=' text-blue'>View Certificate</p>
+                <p className=' text-blue underline decoration-1'>View Certificate</p>
             </Link>
           </div>
           <div className='text-grey mt-14'>
@@ -132,7 +132,7 @@ export default function page() {
               href="https://scrimba.com/certificate/uv7kbPhq/gfrontend"
               target="_blank" rel="noreferrer"
             >
-              <p className=' text-blue'>View Certificate</p>
+              <p className=' text-blue underline decoration-1'>View Certificate</p>
             </Link>
           </div>
           <div className='text-grey mt-14'>
@@ -142,7 +142,7 @@ export default function page() {
               href="https://www.freecodecamp.org/certification/jeffersonbalde/responsive-web-design"
               target="_blank" rel="noreferrer"
             >
-              <p className=' text-blue'>View Certificate</p>
+              <p className=' text-blue underline decoration-1'>View Certificate</p>
             </Link>
           </div>
           <div className='text-grey mt-14'>
@@ -152,7 +152,7 @@ export default function page() {
               href="https://www.freecodecamp.org/certification/jeffersonbalde/javascript-algorithms-and-data-structures"
               target="_blank" rel="noreferrer"
             >
-              <p className=' text-blue'>View Certificate</p></Link>
+              <p className=' text-blue underline decoration-1'>View Certificate</p></Link>
           </div>
         </motion.div>
       </div>
