@@ -82,7 +82,7 @@ function Hero() {
             <h1 className='text-blue text-lg sm:text-xl font-semibold'>
               <Link
                 href="#projects"
-                className='nav-link '
+                className='nav-link hover:text-grey'
                 onClick={handleScroll}
               >
               View Projects
@@ -90,7 +90,7 @@ function Hero() {
                 <span className='font-light text-black'> &nbsp; or &nbsp; </span> 
               <Link
                 href="/about"
-                className='nav-link'
+                className='nav-link hover:text-grey'
                 >
                 Read About Me
               </Link>
