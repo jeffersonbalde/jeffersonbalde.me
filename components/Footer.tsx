@@ -258,11 +258,11 @@ function Footer() {
             <div className='mt-14 flex flex-col justify-center items-center text-center'>
                 <div className='flex flex-row justify-center gap-3 items-center'>
                     <Link
-                        href="email"
+                        href={'mailto:jeffersonbalde13@gmail.com'}
                     >
                         <Image 
                             src={email}
-                            alt='Github Image'
+                            alt='Email'
                         />
                     </Link>
                     <Link
@@ -271,7 +271,7 @@ function Footer() {
                     >
                         <Image 
                             src={github}
-                            alt='Linked Image'
+                            alt='Github'
                         />
                     </Link>
                     <Link
@@ -280,7 +280,7 @@ function Footer() {
                     >
                         <Image 
                             src={linkedin}
-                            alt='Resume Image'
+                            alt='LinkedIn'
                         />
                     </Link>
                 </div>
