@@ -36,7 +36,7 @@ function Contact() {
         <div className='mt-9 text-white text-[12px] uppercase'>
         <Link 
           href={'mailto:jeffersonbalde13@gmail.com'}
-          className='border border-blue w-32 text-xs p-3 md:text-sm md:w-36 bg-blue rounded-full px-5'>
+          className='border border-blue w-32 text-sm p-3 md:w-36 bg-blue rounded-full px-5'>
           SEND ME AN EMAIL
         </Link>
         </div>
