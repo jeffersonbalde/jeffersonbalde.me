@@ -71,7 +71,7 @@ function Footer() {
     >
         <hr className=' border-grey'/>
         <div className='mt-10 md:mt-12 md:flex flex-row justify-between md:w-[720px] lg:w-[800px] md:m-auto'>
-            <h1 className='text-black font-bold text-3xl mt-6 md:mt-4'>JB</h1>
+            <h1 className='text-blue font-bold text-3xl mt-6 md:mt-4'>JB</h1>
             <div className='mt-2'>
                 <hr className='a border-grey md:hidden'/>
                 <h1 
@@ -170,8 +170,6 @@ function Footer() {
                             <p className="mt-0.5 ">TypeScript</p>
                             <p className="mt-0.5 ">Python</p>
                             <p className="mt-0.5 ">Java</p>
-                            <p className="mt-0.5 ">PHP</p>
-                            <p className="mt-0.5 ">SQL</p>
                         </div>
                     ) : (
                         <div className="mt-2 text-base hidden md:block">
@@ -179,8 +177,6 @@ function Footer() {
                             <p className="mt-0.5 ">TypeScript</p>
                             <p className="mt-0.5 ">Python</p>
                             <p className="mt-0.5 ">Java</p>
-                            <p className="mt-0.5 ">PHP</p>
-                            <p className="mt-0.5 ">SQL</p>
                         </div>
                     )}
             </div>
@@ -224,21 +220,19 @@ function Footer() {
                         <div className="mt-2 text-base">
                             <p className='mt-0.5 '>VS Code</p>
                             <p className='mt-0.5 '>IntelliJ IDEA</p>
-                            <p className='mt-0.5 '>Eclipse</p>
                             <p className='mt-0.5 '>Figma</p>
                             <p className='mt-0.5 '>MongoDB Atlas</p>
-                            <p className='mt-0.5 '>Vercel</p>
-                            <p className='mt-0.5 '>Render</p>
+                            <p className='mt-0.5 '>Firebase</p>
+                            <p className='mt-0.5 '>AWS</p>
                         </div>
                     ) : (
                         <div className="mt-2 text-base hidden md:block">
                             <p className='mt-0.5 '>VS Code</p>
                             <p className='mt-0.5 '>IntelliJ IDEA</p>
-                            <p className='mt-0.5 '>Eclipse</p>
                             <p className='mt-0.5 '>Figma</p>
                             <p className='mt-0.5 '>MongoDB Atlas</p>
-                            <p className='mt-0.5 '>Vercel</p>
-                            <p className='mt-0.5 '>Render</p>
+                            <p className='mt-0.5 '>Firebase</p>
+                            <p className='mt-0.5 '>AWS</p>
                         </div>
                     )}
             </div>

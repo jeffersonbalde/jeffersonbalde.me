@@ -51,7 +51,7 @@ function Projects() {
                             <div className='text-center'>
                                 <p className='text-xl sm:text-3xl md:text-4xl'> 
                                     <span className='text-grey font-bold'>PixelIT</span> 
-                                    <span className='text-grey'>elevates your brand with creative geniuses, weaving magic through web design, marketing, and technology.</span>
+                                    <span className='text-grey'>is a creative technology studio transforming business with growth strategies for the world&apos;s best brands.</span>
                                 </p>
                             </div>
                             <div className='mt-4 text-grey text-[17px] sm:text-xl md:text-2xl text-center'> 
@@ -277,7 +277,7 @@ function Projects() {
                     <div className='mt-1 flex flex-row items-center'>
                         <h2 className='text-lg mr-5 text-black md:text-xl'>DailyNews</h2>
                         {/* <h6 className='text-grey mr-5 text-[12px] md:text-[15px]'>/</h6> */}
-                        <h6 className='text-grey text-[15px] md:text-[16px] ml-5'>TypeScript &nbsp;&nbsp; /&nbsp;&nbsp; Next.js &nbsp;&nbsp; /&nbsp;&nbsp; React.js /&nbsp;&nbsp; TailwindCSS /&nbsp;&nbsp; /&nbsp;&nbsp; GraphQL</h6>
+                        <h6 className='text-grey text-[15px] md:text-[16px] ml-5'>TypeScript &nbsp;&nbsp; /&nbsp;&nbsp; Next.js &nbsp;&nbsp; /&nbsp;&nbsp; React.js /&nbsp;&nbsp; TailwindCSS /&nbsp;&nbsp; GraphQL</h6>
                      </div>
         </div>
 
@@ -313,7 +313,7 @@ function Projects() {
                     <div className='mt-1 flex flex-row items-center'>
                         <h2 className='text-lg mr-5 text-black md:text-xl'>WebChat</h2>
                         {/* <h6 className='text-grey mr-5 text-[12px] md:text-[15px]'>/</h6> */}
-                        <h6 className='text-grey text-[15px] md:text-[16px] ml-5'>TypeScript &nbsp;&nbsp; /&nbsp;&nbsp; Next.js &nbsp;&nbsp; /&nbsp;&nbsp; React.js /&nbsp;&nbsp; TailwindCSS /&nbsp;&nbsp; /&nbsp;&nbsp; Firebase</h6>
+                        <h6 className='text-grey text-[15px] md:text-[16px] ml-5'>TypeScript &nbsp;&nbsp; /&nbsp;&nbsp; Next.js &nbsp;&nbsp; /&nbsp;&nbsp; React.js /&nbsp;&nbsp; TailwindCSS /&nbsp;&nbsp; Firebase</h6>
                      </div>
         </div>
      </div>

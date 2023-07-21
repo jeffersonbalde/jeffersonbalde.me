@@ -16,6 +16,10 @@ import nextjs from '../public/svg/nextjs.svg'
 import git from '../public/svg/git.svg'
 import github from '../public/svg/github.svg'
 import figma from '../public/svg/figma.svg'
+import database from '../public/svg/database.svg';
+import firebase from '../public/svg/firebase.svg'
+import framermotion from '../public/svg/framermotion.svg'
+import aws from '../public/svg/aws.svg'
 import { useEffect, useRef } from 'react'
 import { motion, useAnimation, useInView } from 'framer-motion'
 
@@ -59,11 +63,12 @@ function Skills() {
             >
                 I have a keen interest in developing innovative projects and expanding 
                 my knowledge in the following technology stacks.
+                {/* Here are a few technologies I&apos;ve been working with recently: */}
             </motion.h2>
         </div>
         <div className='mt-7 flex flex-row items-center gap-3 flex-wrap w-72 justify-center sm:w-96 lg:w-[500px] text-black'>
 
-            <motion.div 
+            {/* <motion.div 
                 className='flex flex-row border border-blue py-3 px-3'
                 ref={ref}
                 variants={{
@@ -97,7 +102,7 @@ function Skills() {
                     className='h-5 w-4 sm:w-5'
                 />
                 <h6 className='uppercase    ml-2 text-sm'>css3</h6>
-            </motion.div>
+            </motion.div> */}
 
             <motion.div 
                 className='flex flex-row border border-blue py-3 px-3'
@@ -115,7 +120,8 @@ function Skills() {
                     alt='JavaScript ES6+'
                     className='h-5 w-4 sm:w-5'
                 />
-                <h6 className=' ml-2 text-sm'>JavaScript ES6+</h6>
+                {/* <h6 className=' ml-2 text-sm'>JavaScript ES6+</h6> */}
+                <h6 className=' ml-2 text-sm'>React/NextJS</h6>
             </motion.div>
             <motion.div 
                 className='flex flex-row border border-blue py-3 px-3'
@@ -135,7 +141,7 @@ function Skills() {
                 />
                 <h6 className=' ml-2 text-sm'>TypeScript</h6>
             </motion.div>
-            <motion.div 
+            {/* <motion.div 
                 className='flex flex-row border border-blue py-3 px-3'
                 ref={ref}
                 variants={{
@@ -152,8 +158,8 @@ function Skills() {
                     className='h-5 w-4 sm:w-5'
                 />
                 <h6 className=' ml-2 text-sm'>Java</h6>
-            </motion.div>
-            <motion.div 
+            </motion.div> */}
+            {/* <motion.div 
                 className='flex flex-row border border-blue py-3 px-3'
                 ref={ref}
                 variants={{
@@ -171,8 +177,8 @@ function Skills() {
                     className='h-5 w-4 sm:w-5'
                 />
                 <h6 className=' ml-2 text-sm'>React.js</h6>
-            </motion.div>
-            <motion.div 
+            </motion.div> */}
+            {/* <motion.div 
                 className='flex flex-row border border-blue py-3 px-3'
                 ref={ref}
                 variants={{
@@ -189,7 +195,7 @@ function Skills() {
                     className='h-5 w-4 sm:w-5'
                 />
                 <h6 className=' ml-2 text-sm'>Next.js</h6>
-            </motion.div>
+            </motion.div> */}
             <motion.div 
                 className='flex flex-row border border-blue py-3 px-3'
                 ref={ref}
@@ -208,7 +214,7 @@ function Skills() {
                 />
                 <h6 className=' ml-2 text-sm'>Node.js</h6>
             </motion.div>
-            <motion.div 
+            {/* <motion.div 
                 className='flex flex-row border border-blue py-3 px-3'
                 ref={ref}
                 variants={{
@@ -225,7 +231,7 @@ function Skills() {
                     className='h-5 w-4 sm:w-5'
                 />
                 <h6 className=' ml-2 text-sm'>MongoDB</h6>
-            </motion.div>
+            </motion.div> */}
             <motion.div 
                 className='flex flex-row border border-blue py-3 px-3'
                 ref={ref}
@@ -238,13 +244,13 @@ function Skills() {
                 transition={{ duration: 0.8, delay: 0.5}}
                 >
                 <Image 
-                    src={mysql}
-                    alt='mySQL'
+                    src={database}
+                    alt='SQL/NoSQL'
                     className='h-5 w-4 sm:w-5'
                 />
-                <h6 className=' ml-2 text-sm'>MySQL</h6>
+                <h6 className=' ml-2 text-sm'>SQL/NoSQL</h6>
             </motion.div>
-            <motion.div 
+            {/* <motion.div 
                 className='flex flex-row border border-blue py-3 px-3'
                 ref={ref}
                 variants={{
@@ -261,7 +267,7 @@ function Skills() {
                     className='h-5 w-4 sm:w-5'
                 />
                 <h6 className=' ml-2 text-sm'>PostgreSQL</h6>
-            </motion.div>
+            </motion.div> */}
             <motion.div 
                 className='flex flex-row border border-blue py-3 px-3'
                 ref={ref}
@@ -280,6 +286,57 @@ function Skills() {
                 <h6 className=' ml-2 text-sm'>Tailwind CSS</h6>
             </motion.div>
             <motion.div 
+                className='flex flex-row border border-blue py-3 px-3'
+                ref={ref}
+                variants={{
+                    hidden: { y: -10, opacity: 0 },
+                    visible: {  y: 0, opacity: 1}
+                }}
+                initial="hidden"
+                animate={mainControls}
+                transition={{ duration: 0.8, delay: 0.5}}>
+                <Image 
+                    src={framermotion}
+                    alt='Framer Motion'
+                    className='h-5 w-4 sm:w-5'
+                />
+                <h6 className=' ml-2 text-sm'>Framer Motion</h6>
+            </motion.div>
+            <motion.div 
+                className='flex flex-row border border-blue py-3 px-3'
+                ref={ref}
+                variants={{
+                    hidden: { y: -10, opacity: 0 },
+                    visible: {  y: 0, opacity: 1}
+                }}
+                initial="hidden"
+                animate={mainControls}
+                transition={{ duration: 0.8, delay: 0.5}}>
+                <Image 
+                    src={firebase}
+                    alt='Firebase'
+                    className='h-5 w-4 sm:w-5'
+                />
+                <h6 className=' ml-2 text-sm'>Firebase</h6>
+            </motion.div>
+            <motion.div 
+                className='flex flex-row border border-blue py-3 px-3'
+                ref={ref}
+                variants={{
+                    hidden: { y: -10, opacity: 0 },
+                    visible: {  y: 0, opacity: 1}
+                }}
+                initial="hidden"
+                animate={mainControls}
+                transition={{ duration: 0.8, delay: 0.5}}>
+                <Image 
+                    src={aws}
+                    alt='AWS'
+                    className='h-5 w-4 sm:w-5'
+                />
+                <h6 className=' ml-2 text-sm'>AWS</h6>
+            </motion.div>
+            {/* <motion.div 
                 className='flex flex-row border border-blue py-3 px-3'
                 ref={ref}
                 variants={{
@@ -313,7 +370,7 @@ function Skills() {
                     className='h-5 w-4 sm:w-5'
                 />
                 <h6 className=' ml-2 text-sm'>Figma</h6>
-            </motion.div>  
+            </motion.div>   */}
         </div>
     </div>
   )

@@ -2,7 +2,7 @@
 'use client'
 
 import Image from 'next/image'
-import profile from '/public/assets/profile2.jpg'
+import profile from '/public/assets/profile.svg'
 import Link from 'next/link'
 import { motion, useAnimation, useInView } from 'framer-motion'; 
 import { useEffect, useRef } from 'react';
@@ -42,7 +42,7 @@ export default function page() {
             >
             <p>
               I&apos;m Jefferson Balde, currently studying Computer Science at Saint Columban College Pagadian. 
-              I am a <span className='text-blue'> self-taught Front End Developer specializing in React and Next.js. </span>
+              I am a <span className='text-blue'> self-taught Front End Developer specializing in React/NextJS</span>
             </p>
           </motion.div>
           <motion.div
@@ -51,7 +51,7 @@ export default function page() {
             transition={{duration: 0.7, delay: 0.7}}
           >
             <p>Through my passion for coding, 
-              I have gained experience in backend technologies as well, including Node.js, Java, SQL, and NoSQL databases. 
+              I have gained experience in backend technologies as well, including Node.js, SQL, and NoSQL databases. 
               I have been honing my skills through self-study and online courses.
             </p>
           </motion.div>
