@@ -249,7 +249,7 @@ function Footer() {
             transition={{duration: 0.5, delay: 0.6}}    
         >
             <hr className=' border-grey md:hidden'/>
-            <div className='mt-14 flex flex-col justify-center items-center text-center'>
+            <div className='mt-20 flex flex-col justify-center items-center text-center'>
                 <div className='flex flex-row justify-center gap-3 items-center'>
                     <Link
                         href={'mailto:jeffersonbalde13@gmail.com'}
