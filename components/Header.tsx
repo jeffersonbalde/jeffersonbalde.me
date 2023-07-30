@@ -69,8 +69,8 @@ function Header({}: Props) {
                     transition={{duration: 0.3, delay: 0.3}}
                 >
                 <Link
-                  href="#projects"
-                  className=''
+                  href="https://drive.google.com/file/d/1cMqL9bmypkLZvJPoIRuJjV1BW0cBtuQF/view?usp=drive_link"
+                  target="_blank" rel="noreferrer"
                 >
                 resume 
               </Link>
