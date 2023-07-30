@@ -194,7 +194,7 @@ function Projects() {
                         </div>
                 </motion.div>
                     <div className='mt-1 flex flex-row items-center'>
-                        <h2 className='text-lg mr-5 text-black md:text-xl'>AisleDesigns</h2>
+                        <h2 className='text-lg mr-5 text-black md:text-xl'>AisleDesigns <span className='text-blue uppercase text-base font-semibold'> In development</span></h2>
                         {/* <h6 className='text-grey mr-5 text-[12px] md:text-[15px]'>/</h6> */}
                         <h6 className='text-grey text-[15px] md:text-[16px] ml-5'>TypeScript &nbsp;&nbsp; /&nbsp;&nbsp; Next.js &nbsp;&nbsp; /&nbsp;&nbsp; React.js /&nbsp;&nbsp; Tailwind CSS /&nbsp;&nbsp; Framer Motion</h6>
                      </div>
