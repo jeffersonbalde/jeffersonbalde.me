@@ -30,7 +30,7 @@ const migra = localFont({
 })
 
 export const metadata = {
-  title: 'Jefferson Balde | Software Engineer',
+  title: 'Jefferson Balde | Frontend Developer',
   description: 'Jefferson Balde Portfolio Website',
 }
 
