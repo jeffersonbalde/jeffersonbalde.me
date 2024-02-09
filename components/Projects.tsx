@@ -14,6 +14,9 @@ import project9 from '../public/assets/project9.png'
 import project10 from '../public/assets/project10.png'
 import project11 from '../public/assets/project11.png'
 import project12 from '../public/assets/project12.png'
+import CAndS from '../public/assets/C&S.png'
+import AllJShop from '../public/assets/AllJShop.png'
+import Unifit from '../public/assets/UnifitManagement.png'
 import { motion, useAnimation, useInView } from 'framer-motion';
 import { idText } from 'typescript';
 
@@ -30,7 +33,8 @@ function Projects() {
 
   return (
     <div className='pt-36 flex flex-col justify-center items-center max-w-[1320px] m-auto px-5' id="projects">
-        <div className='' >
+
+        {/* <div className='' >
             <div className=''>
                 <motion.div
                     initial={{ y: -10, opacity: 0 }}
@@ -61,18 +65,17 @@ function Projects() {
                             </div>
                             <div className='mt-4 text-grey text-[17px] sm:text-xl md:text-2xl text-center'> 
                                 <a href="https://jfftrafico.vercel.app/" target='_blank' className='mr-4 text-lg text-blue sm:text-2xl hover:underline decoration-1 '>View Website</a>
-                                {/* <a href="#">Github</a> */}
                             </div>
                         </div>
                     </motion.div>
                     <div className='mt-1 flex flex-row items-center'>
                         <h2 className='text-lg mr-5 text-black md:text-xl'>Trafico</h2>
-                        {/* <h6 className='text-grey mr-5 text-[12px] md:text-[15px]'>/</h6> */}
                         <h6 className='text-grey text-[15px] md:text-[16px] ml-5'>React.js &nbsp;&nbsp; /&nbsp;&nbsp; Next.js /&nbsp;&nbsp; Tailwind CSS /&nbsp;&nbsp; Framer Motion</h6>
                     </div>
                 </motion.div>        
             </div>
-        </div>
+        </div> */}
+        
         <motion.div 
             className='mt-12'
             ref={ref}
@@ -108,7 +111,6 @@ function Projects() {
                     </div>
                     <div className='mt-4 text-grey text-[17px] sm:text-xl md:text-2xl text-center'> 
                         <a href="https://jffbeshyconvo.vercel.app/" target='_blank' className='mr-4 text-lg text-blue sm:text-2xl hover:underline decoration-1 '>View Website</a>
-                        {/* <a href="#">Github</a> */}
                     </div>
                 </div>
             </motion.div>
@@ -118,7 +120,7 @@ function Projects() {
             </div>
         </motion.div>
 
-        <motion.div 
+        {/* <motion.div 
             className='mt-12'
             ref={ref}
             variants={{
@@ -153,17 +155,15 @@ function Projects() {
                             </div>
                             <div className='mt-4 text-grey text-[17px] sm:text-xl md:text-2xl text-center'> 
                                 <a href="https://jdailynews.vercel.app/" target='_blank' className='mr-4 text-lg text-blue sm:text-2xl hover:underline decoration-1 '>View Website</a>
-                                {/* <a href="#">Github</a> */}
                             </div>
                         </div>
                 </motion.div>
                     <div className='mt-1 flex flex-row items-center'>
                         <h2 className='text-lg mr-5 text-black md:text-xl'>DG News</h2>
-                        {/* <h6 className='text-grey mr-5 text-[12px] md:text-[15px]'>/</h6> */}
                         <h6 className='text-grey text-[15px] md:text-[16px] ml-5'>TypeScript &nbsp;&nbsp; /&nbsp;&nbsp; Next.js &nbsp;&nbsp; /&nbsp;&nbsp; React.js /&nbsp;&nbsp; Tailwind CSS /&nbsp;&nbsp; GraphQL</h6>
                     </div>
                 
-        </motion.div>
+        </motion.div> */}
         <div className='mt-12'>
                 <motion.div 
                     className='relative group hover:bg-[#FFFFFF] hover:shadow-slate-200 shadow-md'
@@ -194,7 +194,7 @@ function Projects() {
                         </div>
                 </motion.div>
                     <div className='mt-1 flex flex-row items-center'>
-                        <h2 className='text-lg mr-5 text-black md:text-xl'>AisleDesigns <span className='text-blue uppercase text-base font-semibold'> In development</span></h2>
+                        <h2 className='text-lg mr-5 text-black md:text-xl'>AisleDesigns </h2>
                         {/* <h6 className='text-grey mr-5 text-[12px] md:text-[15px]'>/</h6> */}
                         <h6 className='text-grey text-[15px] md:text-[16px] ml-5'>TypeScript &nbsp;&nbsp; /&nbsp;&nbsp; Next.js &nbsp;&nbsp; /&nbsp;&nbsp; React.js /&nbsp;&nbsp; Tailwind CSS /&nbsp;&nbsp; Framer Motion</h6>
                      </div>
@@ -301,6 +301,117 @@ function Projects() {
                         <h6 className='text-grey text-[15px] md:text-[16px] ml-5'>TypeScript &nbsp;&nbsp; /&nbsp;&nbsp; Next.js &nbsp;&nbsp; /&nbsp;&nbsp; React.js /&nbsp;&nbsp; TailwindCSS /&nbsp;&nbsp; Firebase</h6>
                      </div>
         </div> */}
+
+
+                <div className='mt-12'>
+                <motion.div 
+                    className='relative group hover:bg-[#FFFFFF] hover:shadow-slate-200 shadow-md'
+                    whileHover={{
+                        x: 0,
+                        y: 0,
+                        scale: 0.99,
+                        rotate: 0,
+                    }}
+                    transition={{duration: 0.2}}
+                >
+                        <Image 
+                            src={CAndS}
+                            alt="scc website"
+                            className='object-cover group-hover:opacity-[0.06] h-64 w-[470px] bg-center sm:w-[623px] sm:h-[330px] md:w-[730px] md:h-[360px] lg:w-[850px] lg:h-[410px]'
+                        />
+                        <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden group-hover:block w-[290px] sm:w-[500px] md:w-[610px] lg:w-[700px]'>
+                            <div className='text-center'>
+                                <p className='text-xl sm:text-3xl md:text-4xl'> 
+                                    <span className='text-grey font-bold'>C&S Cakes and Bakery Products </span> 
+                                    <span className='text-grey'>provides 5 star quality Cakes and Pastries, tasty bakery products for.</span>
+                                </p>
+                            </div>
+                            <div className='mt-4 text-grey text-[17px] sm:text-xl md:text-2xl text-center'> 
+                                <a href="https://cands.vercel.app/" target='_blank' className='mr-4 text-lg text-blue sm:text-2xl hover:underline decoration-1 '>View Website</a>
+                                {/* <a href="#">Github</a> */}
+                            </div>
+                        </div>
+                </motion.div>
+                    <div className='mt-1 flex flex-row items-center'>
+                        <h2 className='text-lg mr-5 text-black md:text-xl'>C&S </h2>
+                        {/* <h6 className='text-grey mr-5 text-[12px] md:text-[15px]'>/</h6> */}
+                        <h6 className='text-grey text-[15px] md:text-[16px] ml-5'>JavaScript &nbsp;&nbsp; /&nbsp;&nbsp; HTML5 &nbsp;&nbsp; /&nbsp;&nbsp; CSS3 &nbsp;&nbsp; </h6>
+                     </div>
+        </div>
+
+        <div className='mt-12'>
+                <motion.div 
+                    className='relative group hover:bg-[#FFFFFF] hover:shadow-slate-200 shadow-md'
+                    whileHover={{
+                        x: 0,
+                        y: 0,
+                        scale: 0.99,
+                        rotate: 0,
+                    }}
+                    transition={{duration: 0.2}}
+                >
+                        <Image 
+                            src={AllJShop}
+                            alt="scc website"
+                            className='object-cover group-hover:opacity-[0.06] h-64 w-[470px] bg-center sm:w-[623px] sm:h-[330px] md:w-[730px] md:h-[360px] lg:w-[850px] lg:h-[410px]'
+                        />
+                        <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden group-hover:block w-[290px] sm:w-[500px] md:w-[610px] lg:w-[700px]'>
+                            <div className='text-center'>
+                                <p className='text-xl sm:text-3xl md:text-4xl'> 
+                                    <span className='text-grey font-bold'>All J Shop General Merchandise </span> 
+                                    <span className='text-grey'>is a POS and Inventory System written in C# Windows Form Desktop Application.</span>
+                                </p>
+                            </div>
+                            <div className='mt-4 text-grey text-[17px] sm:text-xl md:text-2xl text-center'> 
+                                <a href="https://github.com/jeffersonbalde/AllJShopGeneralMerchandise" target='_blank' className='mr-4 text-lg text-blue sm:text-2xl hover:underline decoration-1 '>View Github</a>
+                                {/* <a href="#">Github</a> */}
+                            </div>
+                        </div>
+                </motion.div>
+                    <div className='mt-1 flex flex-row items-center'>
+                        <h2 className='text-lg mr-5 text-black md:text-xl'> All J Shop General Merchandise </h2>
+                        {/* <h6 className='text-grey mr-5 text-[12px] md:text-[15px]'>/</h6> */}
+                        <h6 className='text-grey text-[15px] md:text-[16px] ml-5'>C# &nbsp;&nbsp; /&nbsp;&nbsp; Microsoft SQL Server /&nbsp;&nbsp; Windows Form Application &nbsp;&nbsp; </h6>
+                     </div>
+        </div>
+
+        
+        <div className='mt-12'>
+                <motion.div 
+                    className='relative group hover:bg-[#FFFFFF] hover:shadow-slate-200 shadow-md'
+                    whileHover={{
+                        x: 0,
+                        y: 0,
+                        scale: 0.99,
+                        rotate: 0,
+                    }}
+                    transition={{duration: 0.2}}
+                >
+                        <Image 
+                            src={Unifit}
+                            alt="scc website"
+                            className='object-cover group-hover:opacity-[0.06] h-64 w-[470px] bg-center sm:w-[623px] sm:h-[330px] md:w-[730px] md:h-[360px] lg:w-[850px] lg:h-[410px]'
+                        />
+                        <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden group-hover:block w-[290px] sm:w-[500px] md:w-[610px] lg:w-[700px]'>
+                            <div className='text-center'>
+                                <p className='text-xl sm:text-3x    l md:text-4xl'> 
+                                    <span className='text-grey font-bold'>Unifit Management </span> 
+                                    <span className='text-grey'>is a Desktop Application designed to keep records of students and teachers who have received their uniforms.</span>
+                                </p>
+                            </div>
+                            <div className='mt-4 text-grey text-[17px] sm:text-xl md:text-2xl text-center'> 
+                                <a href="https://github.com/jeffersonbalde/UniformManagementSystem" target='_blank' className='mr-4 text-lg text-blue sm:text-2xl hover:underline decoration-1 '>View Github</a>
+                                {/* <a href="#">Github</a> */}
+                            </div>
+                        </div>
+                </motion.div>
+                    <div className='mt-1 flex flex-row items-center'>
+                        <h2 className='text-lg mr-5 text-black md:text-xl'> Unifit Management <span className='text-blue uppercase text-base font-semibold'> &nbsp;&nbsp;&nbsp;&nbsp;In development</span></h2>
+                        {/* <h6 className='text-grey mr-5 text-[12px] md:text-[15px]'>/</h6> */}
+                        <h6 className='text-grey text-[15px] md:text-[16px] ml-5'>C# &nbsp;&nbsp; /&nbsp;&nbsp; Microsoft SQL Server /&nbsp;&nbsp; Windows Form Application &nbsp;&nbsp; </h6>
+                     </div>
+        </div>
+
      </div>
   )
 }

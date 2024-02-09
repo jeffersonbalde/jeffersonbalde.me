@@ -20,7 +20,10 @@ import database from '../public/svg/database.svg';
 import firebase from '../public/svg/firebase.svg'
 import framermotion from '../public/svg/framermotion.svg'
 import aws from '../public/svg/aws.svg'
-import { useEffect, useRef } from 'react'
+import csharp from '../public/svg/csharp.svg'
+import java2 from '../public/svg/java2.svg'
+import PHP from '../public/svg/php.svg'
+import { useEffect, useRef } from 'react'   
 import { motion, useAnimation, useInView } from 'framer-motion'
 
 function Skills() {
@@ -330,12 +333,29 @@ function Skills() {
                 animate={mainControls}
                 transition={{ duration: 0.8, delay: 0.5}}>
                 <Image 
-                    src={aws}
+                    src={csharp}
                     alt='AWS'
                     className='h-5 w-4 sm:w-5'
                 />
-                <h6 className=' ml-2 text-sm'>AWS</h6>
+                <h6 className=' ml-2 text-sm'>C#</h6>
             </motion.div>
+            <motion.div 
+                className='flex flex-row border border-blue py-3 px-3'
+                ref={ref}
+                variants={{
+                    hidden: { y: -10, opacity: 0 },
+                    visible: {  y: 0, opacity: 1}
+                }}
+                initial="hidden"
+                animate={mainControls}
+                transition={{ duration: 0.8, delay: 0.5}}>
+                <Image 
+                    src={PHP}
+                    alt='AWS'
+                    className='h-5 w-4 sm:w-5'
+                />
+                <h6 className=' ml-2 text-sm'>PHP</h6>
+            </motion.div> 
             {/* <motion.div 
                 className='flex flex-row border border-blue py-3 px-3'
                 ref={ref}

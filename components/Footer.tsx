@@ -169,14 +169,16 @@ function Footer() {
                             <p className="mt-0.5 ">JavaScript</p>
                             <p className="mt-0.5 ">TypeScript</p>
                             <p className="mt-0.5 ">Python</p>
-                            <p className="mt-0.5 ">Java</p>
+                            <p className="mt-0.5 ">PHP</p>
+                            <p className="mt-0.5 ">C#</p>
                         </div>
                     ) : (
                         <div className="mt-2 text-base hidden md:block">
                             <p className="mt-0.5 ">JavaScript</p>
                             <p className="mt-0.5 ">TypeScript</p>
                             <p className="mt-0.5 ">Python</p>
-                            <p className="mt-0.5 ">Java</p>
+                            <p className="mt-0.5 ">PHP</p>
+                            <p className="mt-0.5 ">C#</p>
                         </div>
                     )}
             </div>
@@ -218,21 +220,21 @@ function Footer() {
                         Tools</h1>
                     {showMenuTools ? (
                         <div className="mt-2 text-base">
-                            <p className='mt-0.5 '>VS Code</p>
-                            <p className='mt-0.5 '>IntelliJ IDEA</p>
                             <p className='mt-0.5 '>Figma</p>
+                            <p className='mt-0.5 '>VS Code</p>
+                            <p className='mt-0.5 '>MS Visual Studio</p>
+                            <p className='mt-0.5 '>IntelliJ IDEA</p>
                             <p className='mt-0.5 '>MongoDB Atlas</p>
                             <p className='mt-0.5 '>Firebase</p>
-                            <p className='mt-0.5 '>AWS</p>
                         </div>
                     ) : (
                         <div className="mt-2 text-base hidden md:block">
-                            <p className='mt-0.5 '>VS Code</p>
-                            <p className='mt-0.5 '>IntelliJ IDEA</p>
                             <p className='mt-0.5 '>Figma</p>
+                            <p className='mt-0.5 '>VS Code</p>
+                            <p className='mt-0.5 '>MS Visual Studio</p>
+                            <p className='mt-0.5 '>IntelliJ IDEA</p>
                             <p className='mt-0.5 '>MongoDB Atlas</p>
                             <p className='mt-0.5 '>Firebase</p>
-                            <p className='mt-0.5 '>AWS</p>
                         </div>
                     )}
             </div>
@@ -280,6 +282,7 @@ function Footer() {
                 </div>
                 <div className='mt-2'>
                     <p className=' text-sm'>Copyright © 2023 
+                    
                         <a href="https://www.linkedin.com/in/jeffersonbalde/" className='text-blue underline decoration-1' target='_blank'> Jefferson Balde. </a> <br/>All rights reserved.
                     </p>
                     <br />
@@ -288,6 +291,6 @@ function Footer() {
         </motion.div>
     </motion.div>
   )
-}
+}1
 
 export default Footer

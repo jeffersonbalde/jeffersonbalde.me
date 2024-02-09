@@ -33,7 +33,7 @@ function Header({}: Props) {
           transition={{duration: 0.5}}
         >
           <Link href="/">
-            <h1 className='text-[18px] text-black font-bold'>Jefferson Balde <span className='ml-5 uppercase hidden md:inline font-bold'>Software Engineer &nbsp; / &nbsp; Front End Developer</span> </h1>
+            <h1 className='text-[18px] text-black font-bold'>Jefferson Balde<span className='ml-5  hidden md:inline font-bold'> /&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Freelance Software Developer &nbsp;  &nbsp; </span> </h1>
           </Link>
         </motion.div>
         <nav className='list-none'>

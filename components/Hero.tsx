@@ -42,8 +42,8 @@ function Hero() {
             animate={{ y: 0, opacity: 1 }}
             transition={{duration: 0.6, delay: 0.6}}
           >
-            <h2 className='mt-3 text-[18px] text-black w-80 sm:text-xl sm:w-[490px] md:text-2xl md:w-[570px] lg:w-[710px]'>
-              I&apos;m a Frontend Developer based in Philippines. I design and build interactive websites that run across platforms & devices
+            <h2 className='mt-3 text-[18px] text-black w-80 sm:text-xl sm:w-[490px] md:text-3xl md:w-[570px] lg:w-[710px]'>
+              I design and build interactive websites and systems that run across platforms & devices
             </h2>
           </motion.div>
         {/* <div className='mt-10 text-blue uppercase flex flex-row gap-3'>
@@ -85,7 +85,7 @@ function Hero() {
                 className='nav-link hover:text-grey'
                 onClick={handleScroll}
               >
-              View Projects
+              Recent Works
               </Link>
                 <span className='font-light text-black'> &nbsp; or &nbsp; </span> 
               <Link
