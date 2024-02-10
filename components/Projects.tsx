@@ -76,7 +76,7 @@ function Projects() {
             </div>
         </div> */}
         
-        <motion.div 
+        {/* <motion.div 
             className='mt-12'
             ref={ref}
             variants={{
@@ -118,7 +118,7 @@ function Projects() {
                 <h2 className='text-lg mr-5 text-black md:text-xl'>WebChat</h2>
                 <h6 className='text-grey text-[15px] md:text-[16px] ml-5'>TypeScript &nbsp;&nbsp; /&nbsp;&nbsp; Next.js &nbsp;&nbsp; /&nbsp;&nbsp; React.js /&nbsp;&nbsp; Tailwind CSS /&nbsp;&nbsp; Firebase</h6>
             </div>
-        </motion.div>
+        </motion.div> */}
 
         {/* <motion.div 
             className='mt-12'
@@ -376,7 +376,7 @@ function Projects() {
         </div>
 
         
-        <div className='mt-12'>
+        {/* <div className='mt-12'>
                 <motion.div 
                     className='relative group hover:bg-[#FFFFFF] hover:shadow-slate-200 shadow-md'
                     whileHover={{
@@ -401,16 +401,16 @@ function Projects() {
                             </div>
                             <div className='mt-4 text-grey text-[17px] sm:text-xl md:text-2xl text-center'> 
                                 <a href="https://github.com/jeffersonbalde/UniformManagementSystem" target='_blank' className='mr-4 text-lg text-blue sm:text-2xl hover:underline decoration-1 '>View Github</a>
-                                {/* <a href="#">Github</a> */}
+                                
                             </div>
                         </div>
                 </motion.div>
                     <div className='mt-1 flex flex-row items-center'>
                         <h2 className='text-lg mr-5 text-black md:text-xl'> Unifit Management <span className='text-blue uppercase text-base font-semibold'> &nbsp;&nbsp;&nbsp;&nbsp;In development</span></h2>
-                        {/* <h6 className='text-grey mr-5 text-[12px] md:text-[15px]'>/</h6> */}
+                        
                         <h6 className='text-grey text-[15px] md:text-[16px] ml-5'>C# &nbsp;&nbsp; /&nbsp;&nbsp; Microsoft SQL Server /&nbsp;&nbsp; Windows Form Application &nbsp;&nbsp; </h6>
                      </div>
-        </div>
+        </div> */}
 
      </div>
   )
