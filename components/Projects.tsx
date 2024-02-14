@@ -362,7 +362,7 @@ function Projects() {
                             <div className='text-center'>
                                 <p className='text-xl sm:text-3xl md:text-4xl'> 
                                     <span className='text-grey font-bold'>POS and Inventory Management System </span> 
-                                    <span className='text-grey'>for my client's convenience store in my hometown.</span>
+                                    <span className='text-grey'>for my client's convenience store in my hometown. </span>
                                 </p>
                             </div>
                             <div className='mt-4 text-grey text-[17px] sm:text-xl md:text-2xl text-center'> 
