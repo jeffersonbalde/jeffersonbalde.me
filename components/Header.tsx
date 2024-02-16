@@ -69,7 +69,7 @@ function Header({}: Props) {
                     transition={{duration: 0.3, delay: 0.3}}
                 >
                 <Link
-                  href="https://drive.google.com/drive/folders/18tDRs6zgDHj1yu7_ZK0NuOWwUVgdCNUr"
+                  href="https://drive.google.com/file/d/1ZIY5o5566YkA0MUf9hSfaUVJMAcMxUOW/view?usp=drive_link"
                   target="_blank" rel="noreferrer"
                 >
                 resume 
